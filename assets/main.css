@@ -829,7 +829,6 @@ marquee {
 .all-colleges .nav-tabs .nav-link {
   font-size: 0.875rem; /* Smaller font for readability */
   font-weight: 600;
-  padding: 8px 15px; /* Adjust padding */
   color: #666; /* Inactive tab color */
   transition: all 0.3s ease-in-out;
   border: none;
