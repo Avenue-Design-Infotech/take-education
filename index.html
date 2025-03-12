@@ -155,6 +155,75 @@
         </div>
     </div>
 </div>
+<!-- Apply Now Button (Triggers Modal) -->
+
+
+<!-- Bootstrap Modal -->
+<div class="modal fade" id="admissionModal" tabindex="-1" aria-labelledby="admissionModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            
+            <!-- Modal Body with Two Columns -->
+            <div class="row g-0">
+                
+                <!-- Left Column: Image -->
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="https://img.freepik.com/free-photo/college-students-different-ethnicities-cramming_23-2149891288.jpg" class="img-fluid h-100 w-100 rounded-start objet-fit-cover" alt="Admission Image">
+                </div>
+                
+                <!-- Right Column: Form -->
+                <div class="col-md-6">
+                    <div class="modal-header rounded-0 bg-blue text-white">
+                        <h5 class="modal-title fw-bold" id="admissionModalLabel">Admission Query</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body px-4">
+                        <form>
+                            <div class="mb-2">
+                                <label for="name" class="form-label text-muted fw-semibold" style="font-size: 0.85rem;">Full Name</label>
+                                <input type="text" class="form-control shadow-sm rounded-3" id="name" placeholder="Enter your name" required style="font-size: 0.85rem; padding: 8px;">
+                            </div>
+                    
+                            <div class="mb-2">
+                                <label for="email" class="form-label text-muted fw-semibold" style="font-size: 0.85rem;">Email</label>
+                                <input type="email" class="form-control shadow-sm rounded-3" id="email" placeholder="Enter your email" required style="font-size: 0.85rem; padding: 8px;">
+                            </div>
+                    
+                            <div class="mb-2">
+                                <label for="phone" class="form-label text-muted fw-semibold" style="font-size: 0.85rem;">Phone Number</label>
+                                <input type="tel" class="form-control shadow-sm rounded-3" id="phone" placeholder="Enter your phone number" required style="font-size: 0.85rem; padding: 8px;">
+                            </div>
+                    
+                            <div class="mb-2">
+                                <label for="message" class="form-label text-muted fw-semibold" style="font-size: 0.85rem;">Your Query</label>
+                                <textarea class="form-control shadow-sm rounded-3" id="message" rows="3" placeholder="Write your query here..." required style="font-size: 0.85rem; padding: 8px;"></textarea>
+                            </div>
+                    
+                            <!-- Call Us & WhatsApp Buttons -->
+                            <div class="d-flex justify-content-between mt-3">
+                                <a href="tel:+919876543210" class="btn text-white fw-bold w-48" style="background: linear-gradient(45deg, #007bff, #0056b3); font-size: 0.85rem; padding: 8px 12px;">
+                                    <i class="fas fa-phone-alt"></i> Call Us
+                                </a>
+                                <a href="https://wa.me/919876543210" target="_blank" class="btn text-white fw-bold w-48" style="background: linear-gradient(45deg, #25D366, #128C7E); font-size: 0.85rem; padding: 8px 12px;">
+                                    <i class="fab fa-whatsapp"></i> WhatsApp Us
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                    
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary fw-bold">Submit Query</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- Why Choose These Colleges for Engineering? -->
 <section class="py-5 bg-light-blue-20 mt-3 py-4">
@@ -206,7 +275,9 @@
                 At <strong>Take Admission</strong>, we help students gain direct admission to top engineering colleges across India. 
                 Contact us today to explore your best options and start your engineering journey <strong>without entrance exams!</strong>
             </p>
-            <a href="#" class="btn btn-orange fw-bold px-3 py-2 mt-2" style="font-size: 0.9rem;">Apply Now</a>
+            <a href="#" class="btn btn-orange fw-bold px-3 py-2 mt-2" style="font-size: 0.9rem;" data-bs-toggle="modal" data-bs-target="#admissionModal">
+                Apply Now
+            </a>
         </div>
     </div>
 </section>
