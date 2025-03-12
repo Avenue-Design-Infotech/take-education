@@ -169,11 +169,6 @@ main {
   border-bottom: none;
 }
 
-.fade {
-  opacity: 0;
-  transition: opacity 0.8s ease-in-out;
-}
-
 .admission-section {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background.jpg") no-repeat center center/cover;
   color: white;
@@ -701,7 +696,6 @@ marquee {
   color: #333;
   font-weight: bold;
   border: none;
-  transition: 0.3s;
 }
 
 .nav-tabs .nav-link.active {
@@ -716,13 +710,7 @@ marquee {
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
   text-align: center;
-}
-
-.college-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .college-card h5 {
@@ -733,6 +721,103 @@ marquee {
 .college-card p {
   font-size: 14px;
   color: #666;
+}
+
+.bg-light-blue-20 {
+  background-color: rgba(21, 30, 166, 0.231372549);
+}
+
+.bg-blue {
+  background-color: #151EA6;
+}
+
+.bg-red {
+  background-color: #E5235A;
+}
+
+.bg-light-blue {
+  background-color: rgba(21, 30, 166, 0.7607843137);
+}
+
+.bg-orange {
+  background-color: #FCB305;
+}
+
+.text-blue {
+  color: #151EA6;
+}
+
+.text-red {
+  color: #E5235A;
+}
+
+.text-orange {
+  color: #FCB305;
+}
+
+.all-colleges {
+  /* Style the navigation tabs for better readability */
+  /* Mobile-specific adjustments */
+  /* Custom styling for a modern and professional look */
+  /* Responsive adjustments */
+}
+.all-colleges .nav-tabs {
+  border-bottom: 2px solid #ddd;
+}
+.all-colleges .nav-tabs .nav-link {
+  font-size: 0.875rem; /* Smaller font for readability */
+  font-weight: 600;
+  padding: 8px 15px; /* Adjust padding */
+  color: #666; /* Inactive tab color */
+  transition: all 0.3s ease-in-out;
+  border: none;
+  background: none;
+}
+.all-colleges .nav-tabs .nav-link.active {
+  color: #fff;
+  background: #151EA6; /* Active tab color */
+  border-radius: 5px;
+}
+.all-colleges .nav-link:not(.active) {
+  color: black !important;
+}
+.all-colleges .nav-tabs .nav-link:hover {
+  color: #151EA6;
+}
+@media (max-width: 768px) {
+  .all-colleges .nav-tabs .nav-link {
+    font-size: 0.75rem; /* Even smaller for mobile */
+    padding: 6px 10px;
+  }
+}
+.all-colleges .card {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.all-colleges .card:hover {
+  transform: translateY(-5px);
+}
+.all-colleges .card-img-top {
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.all-colleges .card-title {
+  font-size: 1rem; /* Desktop font size */
+  font-weight: bold;
+}
+.all-colleges .card-text {
+  font-size: 0.875rem; /* Desktop font size */
+  color: #666;
+}
+@media (max-width: 768px) {
+  .all-colleges .card-title {
+    font-size: 0.875rem; /* Smaller title for mobile */
+  }
+  .all-colleges .card-text {
+    font-size: 0.75rem; /* Smaller text for mobile */
+  }
 }
 
 body {
