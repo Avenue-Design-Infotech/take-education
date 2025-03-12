@@ -1,0 +1,14 @@
+@import './vendors/bs';
+@import './pages/home';
+@import './abstract/variable';
+@import './component/nav';
+@import './component/notice_board';
+@import './component/table';
+@import './pages/about';
+@import './component/job_card';
+@import './component//tabs';
+
+
+body{
+    font-family: "Poppins", sans-serif !important;
+}

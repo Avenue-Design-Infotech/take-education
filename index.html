@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Take Education</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./assets/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+<!-- Bootstrap Icons (if not already included in your project) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+
+ <!-- Main with Background Image -->
+ <main id="dynamicBackground">
+    <div class="overlay">
+        <!-- Header -->
+        <header class="py-2">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="header-text">
+                    <a href="#" class="btn btn-sm bg-transparent btn text-light"><i class="fab  fa-whatsapp text-light"></i> Enquire us on WhatsApp</a>
+                </div>
+                <div class="header-text">
+                    <a href="tel:+918237699993" class="btn btn-sm ps-1 py-1 small-text btn-light fw-bold"> <i class="fas fa-phone-alt"></i> <span class="text-blue"><span class="d-md-inline-block" style="display: none;">For Admission,</span> Call</span> <span class="text-red"> +91 82376 99993</span></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg border-top border-bottom navbar-dark py-0" id="mainNavbar">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">
+                    <img src="./image/logo.svg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+
+                        <!-- Admission Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="admissionDropdown" role="button" data-bs-toggle="dropdown">
+                                Admission
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Undergraduate</a></li>
+                                <li><a class="dropdown-item" href="#">Postgraduate</a></li>
+                                <li><a class="dropdown-item" href="#">Scholarships</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Direct Admission Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="directAdmissionDropdown" role="button" data-bs-toggle="dropdown">
+                                Direct Admission
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Apply Online</a></li>
+                                <li><a class="dropdown-item" href="#">Eligibility Criteria</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Careers -->
+                        <li class="nav-item"><a class="nav-link" href="career.html">Careers</a></li>
+
+                        <!-- News & Updates Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="newsDropdown" role="button" data-bs-toggle="dropdown">
+                                News & Updates
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Latest News</a></li>
+                                <li><a class="dropdown-item" href="#">Events</a></li>
+                                <li><a class="dropdown-item" href="#">Announcements</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="#">Reach Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="container py-5">
+            <div class="row align-items-center">
+                <!-- Left Side: Text Content -->
+                <div class="col-lg-6 text-white text-start">
+                    <p class="lead mt-3 fs-6 fs-md-5 text-light">Searching for the top university or college for your graduation?</p>
+                    <h1 class="fw-bold display-2 " id="dynamicHeading">
+                        Top <span class="text-orange">Colleges</span> for B.Tech
+                    </h1>
+                    <p class="lead mt-3 fs-6 fs-md-5">Find the best colleges offering B.Tech programs with top-notch faculty and placements.</p>
+                    <a href="#" class="btn bg-orange btn-warning btn-lg mt-3">Explore Now</a>
+                </div>
+        
+                <!-- Right Side: Request a Callback Form -->
+                <div class="col-lg-6 d-flex justify-content-lg-end justify-content-center">
+                    <div class="bg-white mt-5  rounded shadow-lg w-100" style="max-width: 450px;">
+                        <h4 class="text-center p-3 text-dark mb-0 border border-bottom">Request a <span class="text-orange">Callback</span></h4>
+                        <form class="p-4">
+                            <div class="mb-3">
+                                <label for="name" class="form-label text-blue">Full Name</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-transparent"><i class="fas fa-user"></i></span>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                                </div>
+                            </div>
+        
+                            <div class="mb-3">
+                                <label for="phone" class="form-label text-blue">Phone Number</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-transparent"><i class="fas fa-phone"></i></span>
+                                    <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                                </div>
+                            </div>
+        
+                            <div class="mb-3">
+                                <label for="email" class="form-label text-blue">Email Address</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-transparent"><i class="fas fa-envelope"></i></span>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                                </div>
+                            </div>
+        
+                            <button type="submit" class="btn btn-primary rounded-pill text-light bg-light-blue w-100">Send Request</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+<div class="container mt-4">
+    <div class="col-md-8 mx-auto">
+        <div class="notice-board shadow-md  p-0">
+            <div class="notice-title">📢 Latest Announcements</div>
+            <div class="p-3">
+                <marquee behavior="scroll" direction="left" scrollamount="5">
+                    Study MBBS / B.Tech / MBA and other courses in Top Universities and College anywhere in India. Top Universities in Chhattisgarh, Madhya Pradesh, Maharashtra, Karnataka & Uttar Pradesh.
+                </marquee>
+                <a href="#"  class="btn mt-2 z-3 position-relative btn-sm btn-primary bg-blue">View All</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Why Choose Us Section -->
+<section class="py-5 bg-light-blue-20 mt-3 py-4">
+    <div class="container text-center">
+        <h2 class="fw-bold text-blue mb-4">Why Choose <span class="text-orange">Take Education?</span></h2>
+        <div class="row g-4">
+
+            <!-- University Partners -->
+            <div class="col-md-3">
+                <div class="p-4 bg-white shadow rounded">
+                    <i class="fas fa-university fa-3x text-orange mb-3"></i>
+                    <h4 class="fw-bold">850+</h4>
+                    <p class="text-muted mb-0">University Partners</p>
+                </div>
+            </div>
+
+            <!-- Success Stories -->
+            <div class="col-md-3">
+                <div class="p-4 bg-white shadow rounded">
+                    <i class="fas fa-user-graduate fa-3x text-orange mb-3"></i>
+                    <h4 class="fw-bold">45,000+</h4>
+                    <p class="text-muted mb-0">Success Stories</p>
+                </div>
+            </div>
+
+            <!-- Scholarships -->
+            <div class="col-md-3">
+                <div class="p-4 bg-white shadow rounded">
+                    <i class="fas fa-award fa-3x text-orange mb-3"></i>
+                    <h4 class="fw-bold">50%*</h4>
+                    <p class="text-muted mb-0">Scholarship Up To</p>
+                </div>
+            </div>
+
+            <!-- Courses Pricing -->
+            <div class="col-md-3">
+                <div class="p-4 bg-white shadow rounded">
+                    <i class="fas fa-rupee-sign fa-3x text-orange mb-3"></i>
+                    <h4 class="fw-bold">₹8 Lakhs*</h4>
+                    <p class="text-muted mb-0">Courses Starting At</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<article class="py-3 mt-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <span class="badge bg-light-blue-20 text-blue"><i class="fa-solid fa-graduation-cap"></i> TOP COLLEGS</span>
+                    <h2 class="mt-2">Explore Colleges & <span class="text-blue">Universities</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4 text-center">
+            <div class="col-md-4 col-lg-2 col-6 mb-4">
+                <div class="p-4 p-md-3 rounded bg-white rounded-3 serv-card h-100">
+                    <img src="./image/surface1.svg" alt="">
+                    <h5 class="fw-bold fs-6 fs-md-5 mt-3">Engineering</h5>
+                    <p class="text-blue">301 Colleges</p>
+                </div>
+            </div>
+        
+            <div class="col-md-4 col-lg-2 col-6 mb-4">
+                <div class="p-4 p-md-3 rounded bg-white rounded-3 serv-card h-100">
+                    <img src="./image/management 1.svg" alt="">
+                    <h5 class="fw-bold fs-6 fs-md-5 mt-3">Management</h5>
+                    <p class="text-blue">301 Colleges</p>
+                </div>
+            </div>
+        
+            <div class="col-md-4 col-lg-2 col-6 mb-4">
+                <div class="p-4 p-md-3 rounded bg-white rounded-3 serv-card h-100">
+                    <img src="./image/engineer 1.svg" alt="">
+                    <h5 class="fw-bold fs-6 fs-md-5 mt-3">Medical</h5>
+                    <p class="text-blue">301 Colleges</p>
+                </div>
+            </div>
+        
+            <div class="col-md-4 col-lg-2 col-6 mb-4">
+                <div class="p-4 p-md-3 rounded bg-white rounded-3 serv-card h-100">
+                    <img src="./image/science 1.svg" alt="">
+                    <h5 class="fw-bold fs-6 fs-md-5 mt-3">Science</h5>
+                    <p class="text-blue">301 Colleges</p>
+                </div>
+            </div>
+        
+            <div class="col-md-4 col-lg-2 col-6 mb-4">
+                <div class="p-4 p-md-3 rounded bg-white rounded-3 serv-card h-100">
+                    <img src="./image/engineer 1.svg" alt="">
+                    <h5 class="fw-bold fs-6 fs-md-5 mt-3">Arts</h5>
+                    <p class="text-blue">301 Colleges</p>
+                </div>
+            </div>
+        
+            <div class="col-md-4 col-lg-2 col-6 mb-4">
+                <div class="p-4 p-md-3 rounded bg-white rounded-3 serv-card h-100">
+                    <img src="./image/science 1.svg" alt="">
+                    <h5 class="fw-bold fs-6 fs-md-5 mt-3">Science</h5>
+                    <p class="text-blue">301 Colleges</p>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4 col-lg-2 col-6 mb-4">
+                <div class="p-4 rounded bg-white rounded-3 serv-card h-100">
+                    <img src="./image/surface1.svg" alt="">
+                    <h5 class="fw-bold fs-6 fs-md-5 mt-3">Engineering</h5>
+                    <p class="text-blue">301 Colleges</p>
+                </div>
+            </div>
+    
+            <div class="col-md-4 col-lg-2 col-6 mb-4">
+                <div class="p-4 rounded bg-white rounded-3 serv-card h-100">
+                    <img src="./image/management 1.svg" alt="">
+                    <h5 class="fw-bold fs-6 fs-md-5 mt-3">Management</h5>
+                    <p class="text-blue">301 Colleges</p>
+                </div>
+            </div>
+    
+            <div class="col-md-4 col-lg-2 col-6 mb-4">
+                <div class="p-4 rounded bg-white rounded-3 serv-card h-100">
+                    <img src="./image/engineer 1.svg" alt="">
+                    <h5 class="fw-bold fs-6 fs-md-5 mt-3">Medical</h5>
+                    <p class="text-blue">301 Colleges</p>
+                </div>
+            </div>
+    
+            <div class="col-md-4 col-lg-2 col-6 mb-4">
+                <div class="p-4 rounded bg-white rounded-3 serv-card h-100">
+                    <img src="./image/science 1.svg" alt="">
+                    <h5 class="fw-bold fs-6 fs-md-5 mt-3">Science</h5>
+                    <p class="text-blue">301 Colleges</p>
+                </div>
+            </div>
+    
+            <div class="col-md-4 col-lg-2 col-6 mb-4">
+                <div class="p-4 rounded bg-white rounded-3 serv-card h-100">
+                    <img src="./image/engineer 1.svg" alt="">
+                    <h5 class="fw-bold fs-6 fs-md-5 mt-3">Arts</h5>
+                    <p class="text-blue">301 Colleges</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-2 col-6 mb-4">
+                <div class="p-4 rounded bg-white rounded-3 serv-card h-100">
+                    <img src="./image/science 1.svg" alt="">
+                    <h5 class="fw-bold fs-6 fs-md-5 mt-3">Science</h5>
+                    <p class="text-blue">301 Colleges</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+
+<section class="mt-4 py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <span class="badge bg-light-blue-20 text-blue"><i class="fa-solid fa-graduation-cap"></i> TOP COLLEGS</span>
+                    <h2 class="mt-2">Trusted by the <span class="text-blue">world’s best</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="owl-carousel owl-theme">
+                <!-- Slide 1 -->
+                <div class="item">
+                    <div class="p-4 rounded bg-white shadow-sm text-center slide-brand">
+                        <img src="./image/image 1 (1).svg" alt="Logo 1" class="img-fluid">
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="item">
+                    <div class="p-4 rounded bg-white shadow-sm text-center slide-brand">
+                        <img src="./image/image 2.svg" alt="Logo 2" class="img-fluid">
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="item">
+                    <div class="p-4 rounded bg-white shadow-sm text-center slide-brand">
+                        <img src="./image/image 4.svg" alt="Logo 3" class="img-fluid">
+                    </div>
+                </div>
+                <!-- Slide 4 -->
+                <div class="item">
+                    <div class="p-4 rounded bg-white shadow-sm text-center slide-brand">
+                        <img src="./image/image 4.svg" alt="Logo 3" class="img-fluid">
+                    </div>
+                </div>
+                <!-- Slide 5 -->
+                <div class="item">
+                    <div class="p-4 rounded bg-white shadow-sm text-center slide-brand">
+                        <img src="./image/image 2.svg" alt="Logo 2" class="img-fluid">
+                    </div>
+                </div>
+                <!-- Slide 6 -->
+                <div class="item">
+                    <div class="p-4 rounded bg-white shadow-sm text-center slide-brand">
+                        <img src="./image/image 4.svg" alt="Logo 3" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <button class="btn bg-orange btn-warning btn-lg">Find More Colleges</button>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+
+<section>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-12 mb-4">
+                <div class="text-center">
+                    <span class="badge bg-light-blue-20 text-blue"><i class="fa-solid fa-graduation-cap"></i> TOP COLLEGS</span>
+                    <h2 class="mt-2">Top 5 <span class="text-blue">Colleges & Universities</span></h2>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="table-responsive college-table">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>College</th>
+                                <th>Ranking</th>
+                                <th>Cutoff</th>
+                                <th>Application Deadline</th>
+                                <th>Fees</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-light-blue-20">
+                                <td data-label="Rank"><span class="rank-badge">#1</span></td>
+                                <td data-label="College">
+                                    <div class="d-flex align-items-start w-100">
+                                        <img src="https://iitcareerplus.wordpress.com/wp-content/uploads/2010/02/12.gif" class="college-logo" alt="IIT Bombay Logo">
+                                        <div>
+                                            <div class="college-name">IIT Bombay - Indian Institute of Technology [IITB]</div>
+                                            <div class="college-location">Mumbai, Maharashtra <span class="rating">⭐ 5/5</span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Ranking" class="ranking">#1 out of 50 in India 2024</td>
+                                <td data-label="Cutoff" class="cutoff">JEE-Advanced 2024 Cutoff 68</td>
+                                <td data-label="Application Deadline" class="deadline">14 Mar - 31 Mar 2024</td>
+                                <td data-label="Fees" class="fees">₹66,700</td>
+                            </tr>
+                            <tr class="bg-light-blue-20">
+                                <td data-label="Rank"><span class="rank-badge">#2</span></td>
+                                <td data-label="College">
+                                    <div class="d-flex align-items-start w-100">
+                                        <img src="https://iitcareerplus.wordpress.com/wp-content/uploads/2010/02/12.gif" class="college-logo" alt="IIT Kharagpur Logo">
+                                        <div>
+                                            <div class="college-name">IIT Kharagpur - Indian Institute of Technology [IITKGP]</div>
+                                            <div class="college-location">Kharagpur, West Bengal <span class="rating">⭐ 4.9/5</span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Ranking" class="ranking">#6 out of 200 in India 2024</td>
+                                <td data-label="Cutoff" class="cutoff">CAT 2024 Cutoff 90</td>
+                                <td data-label="Application Deadline" class="deadline">10 June - 18 June 2024</td>
+                                <td data-label="Fees" class="fees">₹2,62,360</td>
+                            </tr>
+                            <tr class="bg-light-blue-20">
+                                <td data-label="Rank"><span class="rank-badge">#3</span></td>
+                                <td data-label="College">
+                                    <div class="d-flex align-items-start w-100">
+                                        <img src="https://iitcareerplus.wordpress.com/wp-content/uploads/2010/02/12.gif" class="college-logo" alt="IIT Delhi Logo">
+                                        <div>
+                                            <div class="college-name">IIT Delhi - Indian Institute of Technology [IITD]</div>
+                                            <div class="college-location">New Delhi, Delhi NCR <span class="rating">⭐ 4.9/5</span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Ranking" class="ranking">#1 out of 27 in India 2024</td>
+                                <td data-label="Cutoff" class="cutoff">CAT 2024 Cutoff 98</td>
+                                <td data-label="Application Deadline" class="deadline">14 Mar - 31 Mar 2024</td>
+                                <td data-label="Fees" class="fees">₹2,28,650</td>
+                            </tr>
+                            <tr class="bg-light-blue-20">
+                                <td data-label="Rank"><span class="rank-badge">#4</span></td>
+                                <td data-label="College">
+                                    <div class="d-flex align-items-start w-100">
+                                        <img src="https://iitcareerplus.wordpress.com/wp-content/uploads/2010/02/12.gif" class="college-logo" alt="IIT Madras Logo">
+                                        <div>
+                                            <div class="college-name">IIT Madras - Indian Institute of Technology [IITM]</div>
+                                            <div class="college-location">Chennai, Tamil Nadu <span class="rating">⭐ 4.9/5</span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Ranking" class="ranking">#1 out of 200 in India 2024</td>
+                                <td data-label="Cutoff" class="cutoff">CAT 2024 Cutoff 85</td>
+                                <td data-label="Application Deadline" class="deadline">10 June - 18 June 2024</td>
+                                <td data-label="Fees" class="fees">₹2,42,000</td>
+                            </tr>
+                            <tr class="bg-light-blue-20">
+                                <td data-label="Rank"><span class="rank-badge">#5</span></td>
+                                <td data-label="College">
+                                    <div class="d-flex align-items-start w-100">
+                                        <img src="https://iitcareerplus.wordpress.com/wp-content/uploads/2010/02/12.gif" class="college-logo" alt="IIM Ahmedabad Logo">
+                                        <div>
+                                            <div class="college-name">IIMA - Indian Institute of Management</div>
+                                            <div class="college-location">Ahmedabad, Gujarat <span class="rating">⭐ 4.9/5</span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Ranking" class="ranking">#2 out of 50 in India 2019</td>
+                                <td data-label="Cutoff" class="cutoff">CAT 2024 Cutoff 99</td>
+                                <td data-label="Application Deadline" class="deadline">03 Dec 24</td>
+                                <td data-label="Fees" class="fees">₹34,50,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container custom-section mt-3">
+    <div class="row g-0"> <!-- g-0 removes gaps -->
+
+        <!-- Left Top Section -->
+        <div class="col-md-6">
+            <div class="box bg-blue text-white">
+                <h5>Looking for direct admission in courses all over India?</h5>
+                <h2 class="display-2 fw-bold mt-3">A NAME YOU <span class="text-warning">CAN TRUST</span></h2>
+                <button class="btn btn-lg btn-warning fw-bold mt-4">GET STARTED</button>
+            </div>
+        </div>
+
+        <!-- Right Top Section -->
+        <div class="col-md-6">
+            <div class="box bg-orange text-dark">
+                <p class="lead mt-3 fs-6 fs-md-5">
+                    Take Admission is a  leading direct <strong>admission consultancy</strong>, dedicated to guiding students across India toward their dream colleges. With years of <strong>expertise</strong>, proven strategies, and a <strong>student-first approach</strong>, we have successfully helped countless students secure <strong>admissions</strong> in top institutions.
+                </p>
+                <p class="lead mt-3 fs-6 fs-md-5">
+                    We provide expert counseling, admission assistance, and guidance for <strong> leading colleges</strong> and <strong>universities</strong> in India and abroad, ensuring a smooth and <strong>hassle-free admission</strong> process—even within <strong>tight timelines</strong>.
+                </p>
+            </div>
+        </div>
+
+        <!-- Left Bottom Section (Vision) -->
+        <div class="col-md-6 order-2 order-md-1"> <!-- Reverse order for mobile -->
+            <div class="box bg-orange text-dark">
+                <h2 class="fw-bold display-3">Our <span class="text-blue">Vision</span></h2>
+                <div class="line-blue my-3"></div>
+                <p class="mt-3 lead mt-3 fs-6 fs-md-5">
+                    At Take Admission, we envision a future where every student has access to quality higher education without the stress of complicated admission procedures. Our goal is to bridge the gap between aspiring students and top colleges in India and abroad, helping them build successful careers through seamless, transparent, and reliable admission guidance.
+                </p>
+            </div>
+        </div>
+
+        <!-- Right Bottom Section (Mission) -->
+        <div class="col-md-6 order-1 order-md-2"> <!-- Reverse order for mobile -->
+            <div class="box bg-blue text-white">
+                <h2 class="fw-bold display-3">Our <span class="text-warning">Mission</span></h2>
+                <div class="line-orange my-3"></div>
+                <p class="mt-3 lead mt-3 fs-6 fs-md-5">
+                    To be the  fs-md-5ing Educational Consulting Organization, to create success stories for our students, value additions to partner Institutions, and to all other stakeholders.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<article class="mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <span class="badge bg-light-blue-20 text-blue"><i class="fa-solid fa-graduation-cap"></i> TOP COLLEGS</span>
+                    <h2 class="mt-2">DO More With<span class="text-blue"> Better Options</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="carousel-container">
+                <div class="owl-carousel custom-carousel">
+                    <div class="item"><img src="./image/e1b84135807e03711bee5af6e693d28a.png" alt="Image 1"></div>
+                    <div class="item"><img src="./image/d2d69fec0417883c31e7cf137f3a50e7.png" alt="Image 2"></div>
+                    <div class="item"><img src="./image/d2d69fec0417883c31e7cf137f3a50e7.png" alt="Image 3"></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</article>
+
+
+
+<div class="container mt-4 py-5">
+    <div class="row align-items-center">
+        <!-- Left Section -->
+        <div class="col-lg-6">
+            <h2>
+                <span class="highlight-text shadow-lg">From Nurturin to</span> <span class="text-warning">Growth</span>
+            </h2>
+            <p class="my-3 lead">
+                With over a decade of experience, we help students to get proper career counseling and 
+                select the best course for their future. We provide multiple sessions of career counseling 
+                for better understanding, which helps the students explore their inner capability and interest.
+            </p>
+            <p class="my-3 lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia molestiae eum temporibus laudantium dicta quae explicabo, provident voluptates, ea deserunt maxime consequuntur qui nam quas tenetur sed omnis possimus repellat.
+            </p>
+            <div class="yellow-wave"></div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="col-lg-6">
+            <div class="row justify-content-center">
+                <div class=" col-6 stats-box">
+                    <h3 class="text-warning">10+</h3>
+                    <p class="text-blue fw-bold">Average experience</p>
+                </div>
+                <div class="col-6 stats-box">
+                    <h3 class="text-warning">1,000+</h3>
+                    <p class="text-blue fw-bold">Student Admission</p>
+                </div>
+                <div class=" col-6 stats-box">
+                    <h3 class="text-warning">25+</h3>
+                    <p class="text-blue fw-bold">Tie-ups in India</p>
+                </div>
+                <div class="col-6 stats-box">
+                    <h3 class="text-warning">100+</h3>
+                    <p class="text-blue fw-bold">Universities / Colleges</p>
+                </div>
+                <div class="col-md-6 col-6 stats-box">
+                    <h3 class="text-warning">10+</h3>
+                    <p class="text-blue fw-bold">Team Members</p>
+                </div>
+                <div class="col-md-6 col-6 stats-box">
+                    <h3 class="text-warning">20</h3>
+                    <p class="text-blue fw-bold">Courses / Degrees</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="bg-orange my-3">
+    <div class="container">
+        <div class="p-4 rounded  text-center" >
+            <h2 class="fw-bold display-4 text-dark">
+                100% Admission <span class="text-blue">Assistance</span>
+            </h2>
+            <p class="text-dark">
+                We provide career counselling with 100% admission assistance
+                which helps you choose the best course in the best university.
+            </p>
+            <a href="https://wa.me/yourwhatsappnumber" class="btn btn-primary bg-blue d-inline-flex align-items-center px-4 py-2 mt-3 ">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="me-2" width="20">
+                Enquire us on WhatsApp
+            </a>
+        </div>
+    </div>
+</section>
+
+<div class="container my-5">
+    <div class="row g-0 shadow rounded overflow-hidden">
+        <!-- Left Section -->
+        <div class="col-md-5 p-4 text-white bg-blue" >
+            <span class="badge bg-orange text-dark mb-2">Trending</span>
+            <h2 class="fw-bold display-4">
+                Important <span class="text-orange">Updates</span>
+            </h2>
+        </div>
+        
+        <!-- Right Section -->
+        <div class="col-md-7 p-4 bg-white">
+            <ul class="list-unstyled">
+                <li class="d-flex align-items-center mb-2">
+                    <i class="bi bi-megaphone-fill text-blue fs-4 me-2"></i>
+                    Helps you in selecting a course for a better career.
+                </li>
+                <li class="d-flex align-items-center mb-2">
+                    <i class="bi bi-megaphone-fill text-blue fs-4 me-2"></i>
+                    Helps you in selecting a course for a better career.
+                </li>
+                <li class="d-flex align-items-center mb-2">
+                    <i class="bi bi-megaphone-fill text-blue fs-4 me-2"></i>
+                    Helps you in selecting a course for a better career.
+                </li>
+                <li class="d-flex align-items-center">
+                    <i class="bi bi-megaphone-fill text-blue fs-4 me-2"></i>
+                    Helps you in selecting a course for a better career.
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- Blog Section -->
+<section class="container my-5">
+    <h2 class="mb-4"><strong>Resources & <span class="text-orange">News</span></strong></h2>
+    
+    <div class="blog-carousel owl-carousel owl-theme">
+        <!-- Blog 1 -->
+        <div class="item">
+            <div class="card border-0 p-0">
+                <img src="https://snpsu.edu.in/wp-content/uploads/2024/09/image.png" class="card-img-top" alt="Blog 1">
+                <div class="card-body ps-0">
+                    <h5 class="card-title"><strong>Unlock Your Future: Apply for Admission</strong></h5>
+                    <p class="card-text">Are you ready to embark on an exciting academic journey?</p>
+                </div>
+            </div>
+        </div>
+        <!-- Blog 2 -->
+        <div class="item">
+            <div class="card border-0 p-0">
+                <img src="https://images.forbes.com/top-college-2024-v1/private-college-686x386.jpg" class="card-img-top" alt="Blog 2">
+                <div class="card-body ps-0">
+                    <h5 class="card-title"><strong>Unlock Your Future: Apply for Admission</strong></h5>
+                    <p class="card-text">Are you ready to embark on an exciting academic journey?</p>
+                </div>
+            </div>
+        </div>
+        <!-- Blog 3 -->
+        <div class="item">
+            <div class="card border-0 p-0">
+                <img src="https://gku.ac.in/blog/wp-content/uploads/2023/01/top-10-engineering-colleges-in-punjab-min.jpg" class="card-img-top" alt="Blog 3">
+                <div class="card-body ps-0">
+                    <h5 class="card-title"><strong>Unlock Your Future: Apply for Admission</strong></h5>
+                    <p class="card-text">Are you ready to embark on an exciting academic journey?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="text-center mt-4">
+        <a href="#" class="btn btn-primary bg-blue px-4 py-2">Explore All Blogs</a>
+    </div>
+</section>
+
+<!-- Admission FAQ Section -->
+<section class="faq-section ">
+    <div class="container">
+        <div class="row">
+            <h3 class="faq-title mb-4">FAQs About Admission Process</h3>
+
+    <div class="accordion" id="faqAccordion">
+        <!-- FAQ Item 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                    <span class="faq-number">1</span> How do I apply for admission?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    You can apply online through our website by filling out the admission form and submitting the required documents.
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Item 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                    <span class="faq-number">2</span> What documents are required for admission?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    The required documents include previous academic certificates, ID proof, passport-size photos, and any entrance test scores if applicable.
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                    <span class="faq-number">3</span> Is there an entrance exam for admission?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Some programs may require an entrance exam. Please check the specific course details for requirements.
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Item 4 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                    <span class="faq-number">4</span> When is the last date to apply for admission?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    The admission deadline varies for different courses. Please visit our official website for updated dates.
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Item 5 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                    <span class="faq-number">5</span> What are the fees for admission?
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    The admission fees depend on the selected course. You can find detailed fee structures on our website.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- View More Button -->
+    <div class="text-center mt-4">
+        <button class="btn view-more-btn">View More &rarr;</button>
+    </div>
+        </div>
+    </div>
+</section>
+<!-- Bootstrap 5 Footer -->
+<footer class="bg-warning text-dark">
+   <div class="dd">
+     <!-- Top Banner -->
+     <div class="container py-3 d-flex justify-content-center align-items-center px-4">
+        <h3 class="mb-0 fw-bold text-center py-5">
+            📞 For <span class="text-blue">Admission, Call</span>
+            <a href="tel:+918237699993" class="text-danger fw-bold"> +91 8237699993</a>
+        </h3>
+    </div>
+
+    <!-- Footer Main Content -->
+    <div class="footer text-white position-relative">
+        <div class="overlay">
+             <!-- Background Image -->
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-25" style="background: url('your-background-image.jpg') no-repeat center; background-size: cover;"></div>
+        
+        <div class="container py-5 position-relative">
+            <div class="row g-4">
+                <!-- About Section -->
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center mb-2">
+                        <img src="./image/logo.svg" alt="Logo" class=" me-2" style="height: 50px;">
+                    </div>
+                    <p class="text-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus minus eveniet quaerat impedit?
+                    </p>
+                </div>
+
+                <!-- Overview Section -->
+                <div class="col-md-4">
+                    <h5 class="fw-bold">Overview</h5>
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="#" class="text-light text-decoration-none">About Education Bharat</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Blog & Articles</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Gallery</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Careers</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Reach us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Courses Section -->
+                <div class="col-md-4">
+                    <h5 class="fw-bold">Our Courses</h5>
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="#" class="text-light text-decoration-none">Direct Admission in MBBS</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">MBBS Admission in Chhattisgarh</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">MBBS Admission in Madhya Pradesh</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">MBA Colleges without Entrance Exam</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="text-center mt-5">
+                <h5 class="fw-bold">Contact Us</h5>
+                <p class="text-light">
+                    Third Floor, 303, BramhaCorp Vantage Tower C, opposite Bavdhan Police Station, Ram Nagar, Pune - 411021
+                </p>
+                <!-- Social Icons -->
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="#" class="text-warning fs-4"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-warning fs-4"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-warning fs-4"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="text-center py-3 border-top border-light">
+            <small class="text-light">© 2025. Take Admission. All Rights Reserved</small>
+        </div>
+    </div>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+    const images = [
+        "../image/0a2f683b0f07e3910f7941ed029d3b2c.png",
+        "https://skilloutlook.com/storage/2017/02/Central-University-South-Vihar.jpg",
+        "https://en-media.thebetterindia.com/uploads/2016/01/Untitled-design-24.jpg",
+        "https://images.shiksha.com/mediadata/images/articles/1728449149phphsZodm.jpeg",
+        "https://img.freepik.com/free-photo/hercules-hall-surrounded-by-greenery-sunlight-daytime-munich-germany_181624-17876.jpg"
+    ];
+
+    let index = 0;
+    const mainElement = document.getElementById("dynamicBackground");
+
+    function changeBackground() {
+        index = (index + 1) % images.length;
+        mainElement.style.backgroundImage = `url('${images[index]}')`;
+    }
+
+    setInterval(changeBackground, 5000); // Change background every 5 seconds
+</script>
+<script>
+    const headingTexts = [
+        'Top <span class="text-orange">Colleges</span> for B.Tech',
+        'Best <span class="text-orange">Universities</span> for Engineering',
+        'Top <span class="text-orange">Institutes</span> for Technology',
+        'Best <span class="text-orange">Engineering</span> Colleges in India',
+        'Leading <span class="text-orange">Tech</span> Universities Worldwide'
+    ];
+
+    let headingIndex = 0;
+    const headingElement = document.getElementById("dynamicHeading");
+
+    function changeHeading() {
+        // Apply fade-out effect
+        headingElement.classList.add("fade");
+
+        setTimeout(() => {
+            // Change text after fade-out
+            headingIndex = (headingIndex + 1) % headingTexts.length;
+            headingElement.innerHTML = headingTexts[headingIndex];
+
+            // Apply fade-in effect
+            headingElement.classList.remove("fade");
+        }, 800); // Wait for the fade-out transition to complete
+    }
+
+    setInterval(changeHeading, 5000); // Change heading every 5 seconds
+</script>
+
+<!-- Include jQuery & Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".blog-carousel").owlCarousel({
+            items: 3,
+            loop: true,
+            margin: 15,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            responsive:{
+                0:{ items:1 },
+                600:{ items:2 },
+                1000:{ items:3 }
+            }
+        });
+    });
+    </script>
+<script>
+    $(document).ready(function(){
+        $(".custom-carousel").owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            responsive: {
+                0: { items: 1 }, /* 1 image on mobile */
+                600: { items: 2 }, /* 2 images on tablets */
+                1000: { items: 3 } /* 3 images on larger screens */
+            }
+        });
+    });
+</script>
+
+<!-- Owl Carousel Initialization -->
+<script>
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        loop: true,          // Infinite loop
+        margin: 20,         // Space between slides
+        nav: false,          // Next/Prev buttons
+        dots: false,        // Hide dots
+        autoplay: true,     // Auto sliding
+        autoplayTimeout: 2000, // Slide speed
+        responsive:{
+            0:{ items:2 },  // 2 logos on mobile
+            600:{ items:3 }, // 3 logos on tablets
+            1000:{ items:4 } // 4 logos on desktops
+        }
+    });
+});
+</script>
+<!-- jQuery (Needed for Scroll Detection) -->
+
+<!-- Scroll Script -->
+<script>
+$(document).ready(function(){
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {  // If user scrolls 50px down
+            $("#mainNavbar").addClass("sticky-navbar");
+        } else {
+            $("#mainNavbar").removeClass("sticky-navbar");
+        }
+    });
+});
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

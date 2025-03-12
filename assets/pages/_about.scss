@@ -1,0 +1,43 @@
+@import '../abstract/variable';
+
+.bg-header{
+  background-image: url('../../image/header-image.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.section-content{
+ h3{
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 14px;
+ }
+ h2{
+  font-size:48px;
+ }
+}
+.article-text{
+  h2{
+      font-size:52px;
+  }
+}
+.choose-img{
+  width:64px;
+}
+
+.testimonial{
+  border-radius: 50%;
+  width: 101px;
+  height: 96px;
+  object-fit: cover;
+  border: 2px solid $blue;
+}
+.content{
+  font-size:32px;
+}
+
+.border-custom{
+  border-top: 5px dashed $blue;
+  border-bottom: 5px dashed $blue;
+}

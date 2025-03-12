@@ -1,0 +1,16 @@
+.job-card {
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.job-card:hover {
+    transform: scale(1.05);
+}
+.job-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.apply-btn {
+    transition: 0.3s;
+}
