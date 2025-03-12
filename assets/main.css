@@ -265,6 +265,68 @@ main {
   background: #dfe8ff;
 }
 
+.benefits-section {
+  background: #f8f9fa; /* Light background */
+  padding: 60px 20px;
+}
+
+.benefits-container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.benefits-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.benefits-list, .goals-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.benefits-list li, .goals-list li {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.benefits-list li:hover, .goals-list li:hover {
+  transform: translateY(-3px);
+}
+
+.benefits-list li i, .goals-list li i {
+  font-size: 1.4rem;
+  color: #28a745;
+  margin-right: 12px;
+}
+
+.goals-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 40px;
+  color: #28a745;
+}
+
+@media (max-width: 768px) {
+  .benefits-title, .goals-title {
+    font-size: 1.5rem;
+  }
+  .benefits-list li, .goals-list li {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
 .bg-light-blue-20 {
   background-color: rgba(21, 30, 166, 0.231372549);
 }
@@ -788,6 +850,18 @@ marquee {
   .all-colleges .nav-tabs .nav-link {
     font-size: 0.75rem; /* Even smaller for mobile */
     padding: 6px 10px;
+  }
+  .all-colleges .card-img-top {
+    height: 80px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  .all-colleges .card-text {
+    font-size: 10px !important;
+  }
+  .all-colleges .card-title {
+    font-size: 12px !important;
   }
 }
 .all-colleges .card {

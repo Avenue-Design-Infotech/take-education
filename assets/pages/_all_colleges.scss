@@ -1,7 +1,7 @@
 @import '../abstract/variable';
 
 .all-colleges{
-
+   
       /* Style the navigation tabs for better readability */
       .nav-tabs {
         border-bottom: 2px solid #ddd;
@@ -35,6 +35,17 @@
         .nav-tabs .nav-link {
             font-size: 0.75rem; /* Even smaller for mobile */
             padding: 6px 10px;
+        }
+        .card-img-top {
+            height: 80px !important;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+        .card-text {
+            font-size: 10px !important;
+        }
+        .card-title{
+            font-size: 12px !important;
         }
     }
           /* Custom styling for a modern and professional look */
