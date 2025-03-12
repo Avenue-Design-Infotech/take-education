@@ -894,6 +894,97 @@ marquee {
   }
 }
 
+.bg-light-blue-20 {
+  background-color: rgba(21, 30, 166, 0.231372549);
+}
+
+.bg-blue {
+  background-color: #151EA6;
+}
+
+.bg-red {
+  background-color: #E5235A;
+}
+
+.bg-light-blue {
+  background-color: rgba(21, 30, 166, 0.7607843137);
+}
+
+.bg-orange {
+  background-color: #FCB305;
+}
+
+.text-blue {
+  color: #151EA6;
+}
+
+.text-red {
+  color: #E5235A;
+}
+
+.text-orange {
+  color: #FCB305;
+}
+
+.categories .accordion-item {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.categories .accordion-button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  background: #ffffff;
+  transition: all 0.3s ease-in-out;
+  padding: 15px;
+}
+.categories .accordion-button:hover {
+  background-color: #151EA6;
+  color: white;
+}
+.categories .accordion-button:not(.collapsed) {
+  background-color: #151EA6;
+  color: white;
+}
+.categories .accordion-button i {
+  margin-right: 12px;
+  font-size: 1.3rem;
+  color: #151EA6;
+}
+.categories .accordion-button:not(.collapsed) i {
+  color: white;
+}
+.categories .accordion-body {
+  font-size: 1rem;
+  color: #555;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+.categories .accordion-body strong {
+  color: #333;
+  font-size: 1.1rem;
+}
+.categories .accordion-body ul {
+  padding-left: 20px;
+}
+.categories .accordion-body ul li {
+  margin-bottom: 8px;
+  list-style: none;
+}
+.categories .accordion-body ul li i {
+  color: #151EA6;
+  margin-right: 8px;
+}
+@media (max-width: 768px) {
+  .categories .accordion-button {
+    font-size: 1.1rem;
+  }
+}
+
 body {
   font-family: "Poppins", sans-serif !important;
 }/*# sourceMappingURL=main.css.map */
