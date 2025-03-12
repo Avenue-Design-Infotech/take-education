@@ -16,7 +16,7 @@
         transition: all 0.3s ease-in-out;
         padding: 15px;
     }
-
+ 
     .accordion-button:hover {
         background-color: $blue;
         color: white;
@@ -65,8 +65,13 @@
     }
 
     @media (max-width: 768px) {
-        .accordion-button {
-            font-size: 1.1rem;
+        .accordion-button{
+            font-size: 14px !important;
         }
+        .small-text {
+            font-size: 12px !important; /* Adjust as needed */
+            line-height: 1.4;
+        }
+        
     }
 }

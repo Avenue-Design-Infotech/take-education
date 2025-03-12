@@ -981,7 +981,11 @@ marquee {
 }
 @media (max-width: 768px) {
   .categories .accordion-button {
-    font-size: 1.1rem;
+    font-size: 14px !important;
+  }
+  .categories .small-text {
+    font-size: 12px !important; /* Adjust as needed */
+    line-height: 1.4;
   }
 }
 
