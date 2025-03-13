@@ -993,6 +993,71 @@ marquee {
   }
 }
 
+.bg-light-blue-20 {
+  background-color: rgba(21, 30, 166, 0.231372549);
+}
+
+.bg-blue {
+  background-color: #151EA6;
+}
+
+.bg-red {
+  background-color: #E5235A;
+}
+
+.bg-light-blue {
+  background-color: rgba(21, 30, 166, 0.7607843137);
+}
+
+.bg-orange {
+  background-color: #FCB305;
+}
+
+.text-blue {
+  color: #151EA6;
+}
+
+.text-red {
+  color: #E5235A;
+}
+
+.text-orange {
+  color: #FCB305;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #151EA6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 2px solid #FCB305;
+  box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.1);
+  z-index: 99999;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-nav a i {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.bottom-nav a:hover {
+  color: #FCB305;
+}
+
 body {
   font-family: "Poppins", sans-serif !important;
 }/*# sourceMappingURL=main.css.map */
