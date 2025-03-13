@@ -318,6 +318,11 @@ main {
   color: #28a745;
 }
 
+.counter {
+  font-size: 40px;
+  font-weight: 500;
+}
+
 @media (max-width: 768px) {
   .benefits-title, .goals-title {
     font-size: 1.5rem;
