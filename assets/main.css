@@ -1043,19 +1043,109 @@ marquee {
 .bottom-nav a {
   text-decoration: none;
   color: white;
-  font-size: 14px;
+  font-size: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .bottom-nav a i {
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 5px;
 }
 
 .bottom-nav a:hover {
   color: #FCB305;
+}
+
+.bg-light-blue-20 {
+  background-color: rgba(21, 30, 166, 0.231372549);
+}
+
+.bg-blue {
+  background-color: #151EA6;
+}
+
+.bg-red {
+  background-color: #E5235A;
+}
+
+.bg-light-blue {
+  background-color: rgba(21, 30, 166, 0.7607843137);
+}
+
+.bg-orange {
+  background-color: #FCB305;
+}
+
+.text-blue {
+  color: #151EA6;
+}
+
+.text-red {
+  color: #E5235A;
+}
+
+.text-orange {
+  color: #FCB305;
+}
+
+.announcement-box {
+  background: #151EA6;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-box p {
+  margin: 0;
+}
+
+.college-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.college-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.college-card img {
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.college-card .card-body {
+  padding: 20px;
+}
+
+.btn-custom {
+  background: #151EA6;
+  color: white;
+  border-radius: 50px;
+  padding: 8px 16px;
+  transition: 0.3s;
+}
+
+.btn-custom:hover {
+  background: #151EA6;
+}
+
+.icon-box {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.college-title {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 body {
