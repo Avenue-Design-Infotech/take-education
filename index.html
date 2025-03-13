@@ -61,15 +61,10 @@
                         <li class="nav-item"><a class="nav-link" href="career.html">Careers</a></li>
 
                         <!-- News & Updates Dropdown -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="newsDropdown" role="button" data-bs-toggle="dropdown">
+                        <li class="nav-item ">
+                            <a class="nav-link dropdown-toggle" href="news-update.html">
                                 News & Updates
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Latest News</a></li>
-                                <li><a class="dropdown-item" href="#">Events</a></li>
-                                <li><a class="dropdown-item" href="#">Announcements</a></li>
-                            </ul>
                         </li>
 
                         <li class="nav-item"><a class="nav-link" href="contact-us.html">Reach Us</a></li>
@@ -90,48 +85,57 @@
                     <a href="#" class="btn bg-orange btn-warning btn-lg mt-3">Explore Now</a>
                 </div>
         
-                <!-- Right Side: Request a Callback Form -->
-                <div class="col-lg-6 d-flex justify-content-lg-end justify-content-center">
-                    <div class="bg-white mt-5 rounded-4 shadow-lg w-100 p-4" style="max-width: 450px;">
-                        <!-- Header -->
-                        <div class="text-center p-3 rounded-top bg-blue" >
-                            <h4 class="text-white mb-0">Request a <span class="text-orange">Callback</span></h4>
-                        </div>
-                    
-                        <!-- Form -->
-                        <form class="p-3">
-                            <div class="mb-3">
-                                <label for="name" class="form-label fw-semibold text-dark">Full Name</label>
-                                <div class="input-group">
-                                    <span class="input-group-text bg-light text-dark"><i class="fas fa-user"></i></span>
-                                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
-                                </div>
-                            </div>
-                    
-                            <div class="mb-3">
-                                <label for="phone" class="form-label fw-semibold text-dark">Phone Number</label>
-                                <div class="input-group">
-                                    <span class="input-group-text bg-light text-dark"><i class="fas fa-phone"></i></span>
-                                    <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
-                                </div>
-                            </div>
-                    
-                            <div class="mb-3">
-                                <label for="email" class="form-label fw-semibold text-dark">Email Address</label>
-                                <div class="input-group">
-                                    <span class="input-group-text bg-light text-dark"><i class="fas fa-envelope"></i></span>
-                                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-                                </div>
-                            </div>
-                    
-                            <!-- Submit Button -->
-                            <button type="submit" class="btn btn-primary w-100 py-2 bg-blue rounded-pill text-white fw-bold" >
-                                Send Request
-                            </button>
-                        </form>
+               <!-- Right Side: Request a Callback Form -->
+            <div class="col-lg-6 d-flex justify-content-lg-end justify-content-center">
+                <div class="bg-white mt-5 rounded-4 shadow-lg w-100 p-4" style="max-width: 450px;">
+                    <!-- Header -->
+                    <div class="text-center p-3 rounded-top bg-blue">
+                        <h4 class="text-white mb-0 fs-5">Request a <span class="text-orange">Callback</span></h4>
                     </div>
-                    
+
+                    <!-- Form -->
+                    <form class="p-3">
+                        <div class="mb-3">
+                            <label for="name" class="form-label fw-semibold text-dark fs-6">Full Name</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light text-dark"><i class="fas fa-user"></i></span>
+                                <input type="text" class="form-control fs-6" id="name" placeholder="Enter your name" required>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="phone" class="form-label fw-semibold text-dark fs-6">Phone Number</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light text-dark"><i class="fas fa-phone"></i></span>
+                                <input type="tel" class="form-control fs-6" id="phone" placeholder="Enter your phone number" required>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-semibold text-dark fs-6">Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light text-dark"><i class="fas fa-envelope"></i></span>
+                                <input type="email" class="form-control fs-6" id="email" placeholder="Enter your email" required>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary w-100 py-2 bg-blue rounded-pill text-white fw-bold fs-6">
+                            Send Request
+                        </button>
+                    </form>
                 </div>
+            </div>
+
+<!-- Mobile Optimization CSS -->
+<style>
+    @media (max-width: 576px) { /* Small devices */
+        h4, label, .form-control, .btn { font-size: 14px !important; }
+        .input-group-text { font-size: 13px; }
+        .btn { padding: 8px 10px; }
+    }
+</style>
+
             </div>
         </section>
     </div>

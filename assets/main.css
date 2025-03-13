@@ -332,6 +332,32 @@ main {
     padding: 10px;
   }
 }
+.modal-s .form-control {
+  font-size: 0.9rem;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.modal-s .form-control:focus {
+  border-color: #ff4757;
+  box-shadow: 0 0 8px rgba(255, 71, 87, 0.4);
+}
+.modal-s .btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-2px);
+}
+.modal-s .modal-footer .btn:hover {
+  transform: scale(1.05);
+}
+@media (max-width: 576px) {
+  .modal-s .modal-content {
+    border-radius: 10px;
+  }
+  .modal-s .form-control, .modal-s .btn {
+    font-size: 14px !important;
+  }
+}
+
 .bg-light-blue-20 {
   background-color: rgba(21, 30, 166, 0.231372549);
 }
