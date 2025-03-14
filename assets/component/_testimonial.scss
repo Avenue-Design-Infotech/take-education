@@ -1,0 +1,34 @@
+@import '../abstract/variable';
+
+.testimonial-carousel {
+    margin: 50px 0;
+}
+
+.testimonial-card {
+    background: $blue;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.testimonial-img {
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid $orange;
+}
+
+.testimonial-name h4 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.testimonial-name p {
+    font-size: 14px;
+    opacity: 0.8;
+}

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,8 +18,8 @@
         <!-- Bootstrap Icons (if not already included in your project) -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     </head>
-</head>
 <body>
+
     <main id="dynamicBackground">
         <div class="overlay">
             <!-- Header -->
@@ -49,14 +48,13 @@
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
     
-                            <!-- Admission Dropdown -->
-                           
-    
+                        
                             <!-- Direct Admission Dropdown -->
                             <li class="nav-item ">
-                                <a class="nav-link " href="direct-admission.html" id="directAdmissionDropdown" role="button" data-bs-toggle="dropdown">
+                                <a class="nav-link" href="direct-admission.html" >
                                     Direct Admission
                                 </a>
+                              
                             </li>
     
                             <!-- Careers -->
@@ -80,14 +78,9 @@
                       <div class="row pt-5">
                             <div class="col-md-12">
                                 <div class="hiring-content text-center">
-                                    <h1 class="hiring text-white display-3 fw-bold">
-                                        Latest <span class="text-orange">News & Updates</span>
-                                    </h1>
-                                    <p class="text-white">
-                                        Stay informed with the latest happenings in the world of engineering and technology. <br> 
-                                        Get updates on college admissions, placement drives, research breakthroughs, and industry trends.
-                                    </p>
-                                </div>
+                                    <h1 class="hiring text-white display-3 fw-bold">The Future of <span class="text-orange">Technology in 2025</span></h1>
+                                    <p class="text-white">It is all about grabbing a burger, getting a laptop blinking in front of your eyes,<br>headphones on and dipping into the world of Indian academic information.</p>
+                                  </div>
                             </div>
                       </div>
                  </div>
@@ -96,52 +89,71 @@
         </div>
     </main>
 
-    <div class="container mt-4">
+    <!-- Blog Container -->
+    <div class="container mt-5">
         <div class="row">
-    
-            <!-- Announcements Section -->
-            <div class="col-lg-4 mb-4">
-                <h4 class="mb-3"><i class="fas fa-bullhorn text-danger"></i> Announcements</h4>
-                <div class="announcement-box mb-3">
-                    <p><i class="fas fa-bell icon-box"></i> New batch for Web Development starts from April 10!</p>
-                </div>
-                <div class="announcement-box mb-3">
-                    <p><i class="fas fa-bell icon-box"></i> Upcoming seminar on AI & ML – Register now!</p>
-                </div>
-                <div class="announcement-box">
-                    <p><i class="fas fa-bell icon-box"></i> Holiday notice: Campus closed on April 15.</p>
-                </div>
-            </div>
-             <!-- News & Updates Section -->
+            <!-- Main Blog Content -->
             <div class="col-lg-8">
-                <h4 class="mb-3"><i class="fas fa-rss text-primary"></i> Latest News & Updates</h4>
-
-                <div class="card news-card mb-3" style="max-width: 100%; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);">
-                    <img src="https://images.shiksha.com/mediadata/images/1601280545phpx65J3D.png" class="card-img-top" alt="News Image" style="height: 150px; object-fit: cover;">
-                    <div class="card-body p-2">
-                        <h6 class="news-title text-dark"><i class="fas fa-newspaper"></i> VJTI Admissions Open</h6>
-                        <p class="card-text" style="font-size: 12px;">Applications for Veermata Jijabai Technological Institute (VJTI) are now open. Apply before the deadline!</p>
-                        <a href="#" class="btn btn-sm btn-primary bg-blue">Read More</a>
-                    </div>
+                <h1 class="blog-title">The Future of Technology in 2025</h1>
+                <p class="text-muted">Published on <i class="fas fa-calendar-alt"></i> March 14, 2025</p>
+                <img src="https://images.forbes.com/top-college-2024-v1/private-college-686x386.jpg" alt="Blog Image" class="blog-img my-3">
+                <p class="lead">
+                    The world of technology is evolving rapidly, with AI, blockchain, and automation leading the way. In 2025, we can expect even greater advancements in these fields...
+                </p>
+                <p>
+                    Artificial Intelligence is revolutionizing various industries, from healthcare to finance. Many experts believe AI will significantly enhance productivity and decision-making processes.
+                </p>
+                
+                
+                <!-- Comment Section -->
+                <div class="mt-5">
+                    <h4>Leave a Comment</h4>
+                    <textarea class="form-control mt-2" rows="3" placeholder="Write your comment..."></textarea>
+                    <button class="btn btn-primary mt-3 bg-blue"><i class="fas fa-paper-plane"></i> Submit</button>
                 </div>
-
-                <div class="card news-card mb-3" style="max-width: 100%; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);">
-                    <img src="https://images.shiksha.com/mediadata/images/1489300063phpA1CPrW.jpeg" class="card-img-top" alt="News Image" style="height: 150px; object-fit: cover;">
-                    <div class="card-body p-2">
-                        <h6 class="news-title text-dark"><i class="fas fa-graduation-cap"></i> Thakur College Placement Drive</h6>
-                        <p class="card-text" style="font-size: 12px;">Top companies are hiring from Thakur College of Engineering & Technology. Don't miss this opportunity!</p>
-                        <a href="#" class="btn btn-sm btn-primary bg-blue">Read More</a>
-                    </div>
-                </div>
-
             </div>
+
+            <!-- Sidebar - Related Posts -->
+<div class="col-lg-4">
+    <h4 class="mb-3">Related Posts</h4>
+    
+    <a href="ai-changing-world.html" class="text-decoration-none text-dark">
+        <div class="related-post d-flex mb-3 p-2 border rounded">
+            <img src="https://gku.ac.in/blog/wp-content/uploads/2023/01/top-10-engineering-colleges-in-punjab-min.jpg" alt="AI" class="rounded">
+            <div class="ms-3">
+                <h6 class="mb-1">How AI is Changing the World</h6>
+                <p class="small text-muted"><i class="fas fa-calendar-alt"></i> Feb 20, 2025</p>
+            </div>
+        </div>
+    </a>
+
+    <a href="blockchain-finance.html" class="text-decoration-none text-dark">
+        <div class="related-post d-flex mb-3 p-2 border rounded">
+            <img src="https://images.forbes.com/top-college-2024-v1/private-college-686x386.jpg" alt="Blockchain" class="rounded">
+            <div class="ms-3">
+                <h6 class="mb-1">Blockchain Revolution in Finance</h6>
+                <p class="small text-muted"><i class="fas fa-calendar-alt"></i> Jan 10, 2025</p>
+            </div>
+        </div>
+    </a>
+
+    <a href="rise-of-robotics.html" class="text-decoration-none text-dark">
+        <div class="related-post d-flex mb-3 p-2 border rounded">
+            <img src="https://gku.ac.in/blog/wp-content/uploads/2023/01/top-10-engineering-colleges-in-punjab-min.jpg" alt="Robotics" class="rounded">
+            <div class="ms-3">
+                <h6 class="mb-1">The Rise of Robotics in 2025</h6>
+                <p class="small text-muted"><i class="fas fa-calendar-alt"></i> Dec 5, 2024</p>
+            </div>
+        </div>
+    </a>
+</div>
 
         </div>
     </div>
-    <!-- WhatsApp Chat Button -->
-    <a href="https://wa.link/obbf6q" target="_blank" class="whatsapp-btn">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+  <!-- WhatsApp Chat Button -->
+  <a href="https://wa.link/obbf6q" target="_blank" class="whatsapp-btn">
+    <i class="fab fa-whatsapp"></i>
+</a>
     <footer class="bg-warning text-dark">
         <div class="dd">
             <!-- Top Banner -->
@@ -234,5 +246,8 @@
         </div>
     </footer>
     
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

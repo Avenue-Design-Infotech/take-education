@@ -358,6 +358,55 @@ main {
   }
 }
 
+.shiny-section {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+}
+
+.shiny-effect::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 300%;
+  height: 300%;
+  background: rgba(255, 255, 255, 0.15);
+  transform: rotate(30deg);
+  animation: shine 5s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    top: -100%;
+    left: -100%;
+  }
+  100% {
+    top: 100%;
+    left: 100%;
+  }
+}
+.shiny-btn {
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s ease-in-out;
+}
+
+.shiny-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.shiny-btn:hover::after {
+  left: 100%;
+}
+
 .bg-light-blue-20 {
   background-color: rgba(21, 30, 166, 0.231372549);
 }
@@ -1172,6 +1221,158 @@ marquee {
 .college-title {
   font-size: 20px;
   font-weight: bold;
+}
+
+.bg-light-blue-20 {
+  background-color: rgba(21, 30, 166, 0.231372549);
+}
+
+.bg-blue {
+  background-color: #151EA6;
+}
+
+.bg-red {
+  background-color: #E5235A;
+}
+
+.bg-light-blue {
+  background-color: rgba(21, 30, 166, 0.7607843137);
+}
+
+.bg-orange {
+  background-color: #FCB305;
+}
+
+.text-blue {
+  color: #151EA6;
+}
+
+.text-red {
+  color: #E5235A;
+}
+
+.text-orange {
+  color: #FCB305;
+}
+
+.testimonial-carousel {
+  margin: 50px 0;
+}
+
+.testimonial-card {
+  background: #151EA6;
+  color: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-img {
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 3px solid #FCB305;
+}
+
+.testimonial-name h4 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.testimonial-name p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.blog-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.blog-img {
+  border-radius: 10px;
+  width: 100%;
+  max-height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.author-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.social-icons a {
+  margin: 0 5px;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.social-icons a:hover {
+  color: #0056b3;
+}
+
+.related-post img {
+  width: 100%;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  font-size: 24px;
+  padding: 12px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+}
+@media (max-width: 767px) {
+  .whatsapp-btn {
+    bottom: 83px;
+  }
+}
+
+.whatsapp-btn:hover {
+  background-color: #1EBE5D;
+  transform: scale(1.1);
+}
+
+/* Tooltip */
+.whatsapp-btn::after {
+  content: "Chat with us";
+  position: absolute;
+  right: 65px;
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.whatsapp-btn:hover::after {
+  opacity: 1;
+  visibility: visible;
 }
 
 body {
