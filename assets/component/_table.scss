@@ -103,3 +103,103 @@
 .college-table .table td, .college-table .table th {
     font-size: 12px;
 }
+
+.main-table{
+    /* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Header */
+thead {
+    background: linear-gradient(to right, #ff7f50, #ff4500);
+    color: white;
+    text-align: left;
+}
+
+/* Table Header Cells */
+th {
+    padding: 14px;
+    text-transform: uppercase;
+    border: 1px solid #ff4500;
+}
+
+/* Table Rows */
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Table Data Cells */
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Alternating Row Colors */
+tbody tr:nth-child(odd) {
+    background-color: #ffe4b5; /* Light Orange */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffdab9; /* Peach */
+}
+
+/* Fees Column Highlight */
+td:nth-child(5) {
+    background-color: #ffcc00; /* Yellow */
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #ff9900;
+}
+
+/* Hover Effect */
+tbody tr:hover {
+    background-color: #ffa07a !important; /* Soft Red */
+    color: white;
+    transition: 0.3s;
+}
+
+/* Responsive Table */
+@media screen and (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead {
+        display: none; /* Hide Table Headers */
+    }
+
+    tr {
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        background: #ffdab9;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    td {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+        font-weight: bold;
+        position: relative;
+    }
+
+    td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #ff4500;
+        text-transform: uppercase;
+    }
+}
+
+}

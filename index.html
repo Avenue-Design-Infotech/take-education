@@ -35,43 +35,69 @@
             </div>
         </header>
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg border-top border-bottom navbar-dark py-0" id="mainNavbar">
-            <div class="container">
-                <a class="navbar-brand fw-bold" href="index.html">
-                    <img src="./image/logo.svg" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+       <!-- Navbar -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg border-top border-bottom navbar-dark py-0" id="mainNavbar">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+            <img src="./image/logo.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
 
-                        <!-- Direct Admission Dropdown -->
-                        <li class="nav-item ">
-                            <a class="nav-link" href="direct-admission.html" >
-                                Direct Admission
-                            </a>
-                           
+                <!-- Admission Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="admissionDropdown" role="button">
+                        Admission
+                    </a>
+                    <ul class="dropdown-menu p-3 shadow-lg border-0 fixed-dropdown">
+                        <h5 class="dropdown-title text-dark fw-bold mb-3 border-bottom pb-2">Choose Your Admission</h5>
+
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item sub-menu-link" href="#">BBA/BMS/BMTA/B.Com Admission</a>
+                            <ul class="dropdown-menu submenu">
+                                <li><a class="dropdown-item" href="BBA.html">BBA/BMS/BMTA Admission in Mumbai Colleges</a></li>
+                                <li><a class="dropdown-item" href="BBA.html">BBA/BCA/B.Com Admission in Pune Colleges</a></li>
+                                <li><a class="dropdown-item" href="BBA.html">BBA Admission in Delhi & Noida</a></li>
+                                <li><a class="dropdown-item" href="BBA.html">BBA Admission in Bangalore</a></li>
+                            </ul>
                         </li>
 
-                        <!-- Careers -->
-                        <li class="nav-item"><a class="nav-link" href="career.html">Careers</a></li>
-
-                        <!-- News & Updates Dropdown -->
-                        <li class="nav-item ">
-                            <a class="nav-link " href="news-update.html">
-                                News & Updates
-                            </a>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item sub-menu-link" href="#">Engineering Admission</a>
+                            <ul class="dropdown-menu submenu">
+                                <li><a class="dropdown-item" href="engineering-colleges.html">Mumbai B.Tech Colleges</a></li>
+                                <li><a class="dropdown-item" href="engineering-colleges.html">Pune B.Tech Colleges</a></li>
+                                <li><a class="dropdown-item" href="engineering-colleges.html">Bangalore B.Tech Colleges</a></li>
+                                <li><a class="dropdown-item" href="engineering-colleges.html">Delhi B.Tech Colleges</a></li>
+                            </ul>
                         </li>
 
-                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Reach Us</a></li>
+                        <li><a class="dropdown-item small" href="BBA-MBA-PGDM.html">MBBS Admission</a></li>
+                        <li><a class="dropdown-item small" href="BBA-MBA-PGDM.html">LAW Admission</a></li>
+                        <li><a class="dropdown-item small" href="BBA-MBA-PGDM.html">BPT Admission</a></li>
+                        <li><a class="dropdown-item small" href="BBA-MBA-PGDM.html">BDS Admission</a></li>
+                        <li><a class="dropdown-item small" href="BBA-MBA-PGDM.html">BAMS Admission</a></li>
+                        <li><a class="dropdown-item small" href="BBA-MBA-PGDM.html">MBA Admission</a></li>
+                        <li><a class="dropdown-item small" href="BBA-MBA-PGDM.html">MD/MS/MDS Admission</a></li>
                     </ul>
-                </div>
-            </div>
-        </nav>
+
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="direct-admission.html">Direct Admission</a></li>
+                <li class="nav-item"><a class="nav-link" href="career.html">Careers</a></li>
+                <li class="nav-item"><a class="nav-link" href="news-update.html">News & Updates</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact-us.html">Reach Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 
         <section class="container py-5">
             <div class="row align-items-center">
@@ -84,7 +110,7 @@
                     <p class="lead mt-3 fs-6 fs-md-5">Find the best colleges offering B.Tech programs with top-notch faculty and placements.</p>
                     <a href="#" class="btn bg-orange btn-warning btn-lg mt-3">Explore Now</a>
                 </div>
-        
+
                <!-- Right Side: Request a Callback Form -->
             <div class="col-lg-6 d-flex justify-content-lg-end justify-content-center">
                 <div class="bg-white mt-5 rounded-4 shadow-lg w-100 p-4" style="max-width: 450px;">
@@ -151,15 +177,15 @@
 <div class="modal fade" id="admissionModal" tabindex="-1" aria-labelledby="admissionModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
-            
+
             <!-- Modal Body with Two Columns -->
             <div class="row g-0">
-                
+
                 <!-- Left Column: Image -->
                 <div class="col-md-6 d-none d-md-block">
                     <img src="https://img.freepik.com/free-photo/college-students-different-ethnicities-cramming_23-2149891288.jpg" class="img-fluid h-100 w-100 rounded-start objet-fit-cover" alt="Admission Image">
                 </div>
-                
+
                 <!-- Right Column: Form -->
                 <div class="col-md-6">
                     <div class="modal-header rounded-0 bg-blue text-white">
@@ -173,22 +199,22 @@
                                 <label for="name" class="form-label text-muted fw-semibold" style="font-size: 0.85rem;">Full Name</label>
                                 <input type="text" class="form-control shadow-sm rounded-3" id="name" placeholder="Enter your name" required style="font-size: 0.85rem; padding: 8px;">
                             </div>
-                    
+
                             <div class="mb-2">
                                 <label for="email" class="form-label text-muted fw-semibold" style="font-size: 0.85rem;">Email</label>
                                 <input type="email" class="form-control shadow-sm rounded-3" id="email" placeholder="Enter your email" required style="font-size: 0.85rem; padding: 8px;">
                             </div>
-                    
+
                             <div class="mb-2">
                                 <label for="phone" class="form-label text-muted fw-semibold" style="font-size: 0.85rem;">Phone Number</label>
                                 <input type="tel" class="form-control shadow-sm rounded-3" id="phone" placeholder="Enter your phone number" required style="font-size: 0.85rem; padding: 8px;">
                             </div>
-                    
+
                             <div class="mb-2">
                                 <label for="message" class="form-label text-muted fw-semibold" style="font-size: 0.85rem;">Your Query</label>
                                 <textarea class="form-control shadow-sm rounded-3" id="message" rows="3" placeholder="Write your query here..." required style="font-size: 0.85rem; padding: 8px;"></textarea>
                             </div>
-                    
+
                             <!-- Call Us & WhatsApp Buttons -->
                             <div class="d-flex justify-content-between mt-3">
                                 <a href="tel:+918988505556" class="btn text-white fw-bold w-48" style="background: linear-gradient(45deg, #007bff, #0056b3); font-size: 0.85rem; padding: 8px 12px;">
@@ -200,7 +226,7 @@
                             </div>
                         </form>
                     </div>
-                    
+
 
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -218,7 +244,7 @@
 <section class="py-5 bg-light-blue-20 mt-3 py-4">
     <div class="container text-center">
         <h2 class="fw-bold  mb-3" style="font-size: 1.75rem;">Why Choose <span class="text-blue">These Colleges for Engineering?</span></h2>
-        
+
         <div class="row g-3">
             <!-- Top-Ranked Institutions -->
             <div class="col-md-3">
@@ -261,7 +287,7 @@
         <div class="mt-4">
             <h3 class="fw-bold text-dark" style="font-size: 1.25rem;">Secure Your Engineering Admission</h3>
             <p class="text-muted" style="font-size: 0.9rem; max-width: 700px; margin: auto;">
-                At <strong>Take Admission</strong>, we help students gain direct admission to top engineering colleges across India. 
+                At <strong>Take Admission</strong>, we help students gain direct admission to top engineering colleges across India.
                 Contact us today to explore your best options and start your engineering journey <strong>without entrance exams!</strong>
             </p>
             <a href="#" class="btn btn-orange fw-bold px-3 py-2 mt-2" style="font-size: 0.9rem;" data-bs-toggle="modal" data-bs-target="#admissionModal">
@@ -463,32 +489,10 @@
                 </div>
             </div>
             <div class="col-md-12">
-                <ul class="nav nav-tabs  justify-content-center mb-4 border-0" id="collegeTabs" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="pune-tab" data-bs-toggle="tab" data-bs-target="#pune" type="button" role="tab">
-                            <i class="fas fa-university"></i> Pune
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="mumbai-tab" data-bs-toggle="tab" data-bs-target="#mumbai" type="button" role="tab">
-                            <i class="fas fa-city"></i> Mumbai
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="south-tab" data-bs-toggle="tab" data-bs-target="#south" type="button" role="tab">
-                            <i class="fas fa-building-columns"></i> South India
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="india-tab" data-bs-toggle="tab" data-bs-target="#india" type="button" role="tab">
-                            <i class="fas fa-globe-asia"></i> Other Colleges
-                        </button>
-                    </li>
-                </ul>
                 <div class="tab-content mt-3" id="collegeTabsContent">
                     <div class="tab-pane fade show active" id="pune" role="tabpanel">
                         <div class="row row-cols-1 row-cols-md-4 g-3">
-                            
+
                             <!-- COEP -->
                             <div class="col-lg-3 col-6">
                                 <div class="card h-100 border-0"  data-bs-toggle="modal" data-bs-target="#admissionModal">
@@ -501,7 +505,7 @@
                                     </div>
                                 </div>
                             </div>
-                    
+
                             <!-- PICT -->
                             <div class="col-lg-3 col-6">
                                 <div class="card h-100 border-0"  data-bs-toggle="modal" data-bs-target="#admissionModal">
@@ -514,7 +518,7 @@
                                     </div>
                                 </div>
                             </div>
-                    
+
                             <!-- VIT Pune -->
                             <div class="col-lg-3 col-6">
                                 <div class="card h-100 border-0"  data-bs-toggle="modal" data-bs-target="#admissionModal">
@@ -527,7 +531,7 @@
                                     </div>
                                 </div>
                             </div>
-                    
+
                             <!-- MIT College of Engineering -->
                             <div class="col-lg-3 col-6">
                                 <div class="card h-100 border-0"  data-bs-toggle="modal" data-bs-target="#admissionModal">
@@ -540,7 +544,7 @@
                                     </div>
                                 </div>
                             </div>
-                    
+
                             <!-- Cummins College -->
                             <div class="col-lg-3 col-6">
                                 <div class="card h-100 border-0"  data-bs-toggle="modal" data-bs-target="#admissionModal">
@@ -553,7 +557,7 @@
                                     </div>
                                 </div>
                             </div>
-                    
+
                             <!-- Dr. D.Y. Patil -->
                             <div class="col-lg-3 col-6">
                                 <div class="card h-100 border-0"  data-bs-toggle="modal" data-bs-target="#admissionModal">
@@ -566,7 +570,7 @@
                                     </div>
                                 </div>
                             </div>
-                    
+
                             <!-- Symbiosis Institute -->
                             <div class="col-lg-3 col-6">
                                 <div class="card h-100 border-0"  data-bs-toggle="modal" data-bs-target="#admissionModal">
@@ -579,7 +583,7 @@
                                     </div>
                                 </div>
                             </div>
-                    
+
                             <!-- Sinhgad College -->
                             <div class="col-lg-3 col-6">
                                 <div class="card h-100 border-0"  data-bs-toggle="modal" data-bs-target="#admissionModal">
@@ -592,7 +596,7 @@
                                     </div>
                                 </div>
                             </div>
-                    
+
                             <!-- Bharati Vidyapeeth -->
                             <div class="col-lg-3 col-6">
                                 <div class="card h-100 border-0"  data-bs-toggle="modal" data-bs-target="#admissionModal">
@@ -605,11 +609,11 @@
                                     </div>
                                 </div>
                             </div>
-                    
+
                             <!-- JSPM Engineering College -->
                             <div class="col-lg-3 col-6">
                                 <div class="card h-100 border-0"  data-bs-toggle="modal" data-bs-target="#admissionModal">
-                                    <img src="https://jspmrscoed.edu.in/images/about_images/about_tssm.jpg" class="card-img-top" alt="JSPM College">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7qupF3Mqx2x2c0YhfditfNtaammUbqs80RA&s" class="card-img-top" alt="JSPM College">
                                     <div class="card-body  text-start">
                                         <h6 class="card-title fw-bold mb-2">
                                              JSPM Engineering College
@@ -618,7 +622,7 @@
                                     </div>
                                 </div>
                             </div>
-                    
+
                             <!-- Indira College -->
                             <div class="col-lg-3 col-6">
                                 <div class="card h-100 border-0"  data-bs-toggle="modal" data-bs-target="#admissionModal">
@@ -631,10 +635,10 @@
                                     </div>
                                 </div>
                             </div>
-                    
+
                         </div>
                     </div>
-                    
+
                     <div class="tab-pane fade" id="mumbai" role="tabpanel">
                         <div class="row row-cols-1 row-cols-md-4 g-4">
                             <div class="col-lg-3 col-6">
@@ -792,7 +796,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="tab-pane fade" id="south" role="tabpanel">
                         <div class="row row-cols-1 row-cols-md-3 g-4">
                             <div class="col-lg-3 col-6">
@@ -851,7 +855,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="tab-pane fade" id="india" role="tabpanel">
                         <div class="row g-4">
                             <div class="col-lg-3 col-md-4 col-6">
@@ -892,14 +896,12 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
        </div>
     </div>
 </section>
-
-
 
 <section class="mt-4 py-4">
     <div class="container">
@@ -955,9 +957,8 @@
             </div>
         </div>
     </div>
-    
-</section>
 
+</section>
 
 <section>
     <div class="container my-4">
@@ -998,7 +999,7 @@
                                 <td data-label="Application Deadline" class="deadline">15 June 2024</td>
                                 <td data-label="Fees" class="fees">₹1,20,000</td>
                             </tr>
-                            
+
                             <tr class="bg-light-blue-20">
                                 <td data-label="Rank"><span class="rank-badge">#2</span></td>
                                 <td data-label="College">
@@ -1015,7 +1016,7 @@
                                 <td data-label="Application Deadline" class="deadline">20 June 2024</td>
                                 <td data-label="Fees" class="fees">₹1,60,000</td>
                             </tr>
-                    
+
                             <tr class="bg-light-blue-20">
                                 <td data-label="Rank"><span class="rank-badge">#3</span></td>
                                 <td data-label="College">
@@ -1032,7 +1033,7 @@
                                 <td data-label="Application Deadline" class="deadline">30 June 2024</td>
                                 <td data-label="Fees" class="fees">₹1,75,000</td>
                             </tr>
-                    
+
                             <tr class="bg-light-blue-20">
                                 <td data-label="Rank"><span class="rank-badge">#4</span></td>
                                 <td data-label="College">
@@ -1049,7 +1050,7 @@
                                 <td data-label="Application Deadline" class="deadline">25 June 2024</td>
                                 <td data-label="Fees" class="fees">₹2,00,000</td>
                             </tr>
-                    
+
                             <tr class="bg-light-blue-20">
                                 <td data-label="Rank"><span class="rank-badge">#5</span></td>
                                 <td data-label="College">
@@ -1066,7 +1067,7 @@
                                 <td data-label="Application Deadline" class="deadline">28 June 2024</td>
                                 <td data-label="Fees" class="fees">₹1,85,000</td>
                             </tr>
-                            
+
                             <tr class="bg-light-blue-20">
                                 <td data-label="Rank"><span class="rank-badge">#6</span></td>
                                 <td data-label="College">
@@ -1083,10 +1084,10 @@
                                 <td data-label="Application Deadline" class="deadline">20 July 2024</td>
                                 <td data-label="Fees" class="fees">₹1,50,000</td>
                             </tr>
-                    
+
                         </tbody>
                     </table>
-                    
+
                 </div>
             </div>
         </div>
@@ -1159,7 +1160,7 @@
                     <div class="item"><a href="direct-admission.html"><img src="./image/d2d69fec0417883c31e7cf137f3a50e7.png" alt="Image 3"></a></div>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </article>
@@ -1173,16 +1174,16 @@
                 <span class="text-warning">Empowering</span> Your <span class="text-blue ">Success</span>
             </h2>
             <p class="my-3 lead">
-                Shape your future with expert career guidance. Our personalized counseling sessions help students 
+                Shape your future with expert career guidance. Our personalized counseling sessions help students
                 discover their true potential and make informed educational choices with confidence.
             </p>
             <p class="my-3 lead">
-                Gain access to premier universities and colleges across the country. With our extensive network 
+                Gain access to premier universities and colleges across the country. With our extensive network
                 and trusted academic collaborations, we connect you to the best opportunities for a bright career.
             </p>
             <div class="yellow-wave"></div>
         </div>
-        
+
 
         <!-- Right Section -->
         <div class="col-lg-6">
@@ -1213,10 +1214,90 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 </div>
+<!-- College Listing Section -->
+<div class="container my-5">
+    <div class="text-center mb-4">
+        <h2 class="fw-bold text-primary">🏛️ Top Business & Commerce Colleges</h2>
+        <p class="text-muted">Explore the best institutions offering BBA, B.Com, BMS, and BMM programs.</p>
+    </div>
 
+    <div class="row g-4">
+        <!-- College 1 -->
+        <div class="col-md-6">
+            <div class="college-card p-4 shadow-lg">
+                <h3 class="fw-bold">Narsee Monjee Institute of Management Studies</h3>
+                <p class="text-muted"><b>Programs:</b> BBA, B.Com</p>
+                <p class="description">A premier business school known for its world-class infrastructure, industry exposure, and excellent placements.</p>
+            </div>
+        </div>
+
+        <!-- College 2 -->
+        <div class="col-md-6">
+            <div class="college-card p-4 shadow-lg">
+                <h3 class="fw-bold">St. Xavier’s College</h3>
+                <p class="text-muted"><b>Programs:</b> BMM, B.Com</p>
+                <p class="description">One of Mumbai’s oldest and most prestigious colleges, offering top-notch education and a vibrant campus life.</p>
+            </div>
+        </div>
+
+        <!-- College 3 -->
+        <div class="col-md-6">
+            <div class="college-card p-4 shadow-lg">
+                <h3 class="fw-bold">Mithibai College</h3>
+                <p class="text-muted"><b>Programs:</b> BMS, BMM, B.Com</p>
+                <p class="description">Known for academic excellence and state-of-the-art facilities in commerce and management.</p>
+            </div>
+        </div>
+
+        <!-- College 4 -->
+        <div class="col-md-6">
+            <div class="college-card p-4 shadow-lg">
+                <h3 class="fw-bold">H.R. College of Commerce and Economics</h3>
+                <p class="text-muted"><b>Programs:</b> BMS, B.Com</p>
+                <p class="description">A prestigious commerce college focusing on career development and professional exposure.</p>
+            </div>
+        </div>
+
+        <!-- College 5 -->
+        <div class="col-md-6">
+            <div class="college-card p-4 shadow-lg">
+                <h3 class="fw-bold">K.C. College</h3>
+                <p class="text-muted"><b>Programs:</b> BMS, BMM, B.Com</p>
+                <p class="description">Affiliated with the University of Mumbai, offering excellent business and media studies programs.</p>
+            </div>
+        </div>
+
+        <!-- College 6 -->
+        <div class="col-md-6">
+            <div class="college-card p-4 shadow-lg">
+                <h3 class="fw-bold">K.P.B. Hinduja College</h3>
+                <p class="text-muted"><b>Programs:</b> BMS, B.Com</p>
+                <p class="description">A reputed commerce and management college in Mumbai with strong academic programs.</p>
+            </div>
+        </div>
+
+        <!-- College 7 -->
+        <div class="col-md-6">
+            <div class="college-card p-4 shadow-lg">
+                <h3 class="fw-bold">Jai Hind College</h3>
+                <p class="text-muted"><b>Programs:</b> BMS, BMM, B.Com</p>
+                <p class="description">A premier Mumbai college known for its strong academic curriculum and vibrant student community.</p>
+            </div>
+        </div>
+
+        <!-- College 8 -->
+        <div class="col-md-6">
+            <div class="college-card p-4 shadow-lg">
+                <h3 class="fw-bold">K.J. Somaiya College</h3>
+                <p class="text-muted"><b>Programs:</b> BMS, B.Com</p>
+                <p class="description">Offers excellent commerce and management programs with a focus on industry readiness.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <!-- Career Guidance Section -->
@@ -1226,7 +1307,7 @@
 
             <!-- Left Side: Image -->
             <div class="col-md-5 mb-4 mb-md-0 text-center">
-                <img src="https://cc.sj-cdn.net/instructor/3dqt4kjt3ktr4-watermark-insights/courses/3mahvmzoexkiv/promo-image.1728321424.png" 
+                <img src="https://cc.sj-cdn.net/instructor/3dqt4kjt3ktr4-watermark-insights/courses/3mahvmzoexkiv/promo-image.1728321424.png"
                      alt="Career Guidance" class="img-fluid">
             </div>
 
@@ -1261,7 +1342,7 @@
                     <i class="fab fa-whatsapp"></i> WhatsApp Us
                 </a>
             </div>
-            
+
         </div>
     </div>
 </section>
@@ -1275,12 +1356,12 @@
                     100% Admission <span class="text-warning">Assistance</span>
                 </h2>
                 <p class="text-light lead">
-                    We provide expert career counseling with guaranteed admission assistance, 
+                    We provide expert career counseling with guaranteed admission assistance,
                     helping you select the best course in top universities for a brighter future.
                 </p>
-                <a href="https://wa.link/obbf6q" 
+                <a href="https://wa.link/obbf6q"
                    class="btn btn-primary bg-blue shiny-btn d-inline-flex align-items-center px-4 py-2 mt-3">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
                          alt="WhatsApp" class="me-2" width="20">
                     Enquire on WhatsApp
                 </a>
@@ -1288,7 +1369,7 @@
 
             <!-- Right Section: Image -->
             <div class="col-lg-6 text-center mt-4 mt-lg-0">
-                <img src="https://www.bimskol.org/images/100placement.png" 
+                <img src="https://www.bimskol.org/images/100placement.png"
                      alt="100% Placement Assistance" class="img-fluid rounded">
             </div>
         </div>
@@ -1304,7 +1385,7 @@
                 Important <span class="text-orange">Updates</span>
             </h2>
         </div>
-        
+
         <!-- Right Section -->
         <div class="col-md-7 p-4 bg-white">
             <ul class="list-unstyled">
@@ -1329,16 +1410,15 @@
                     <span class="small fw-bold">Get top placement guidance for top companies</span>
                 </li>
             </ul>
-            
+
         </div>
     </div>
 </div>
 
-
 <!-- Blog Section -->
 <section class="container my-5">
     <h2 class="mb-4"><strong>Resources & <span class="text-orange">News</span></strong></h2>
-    
+
     <div class="blog-carousel owl-carousel owl-theme">
         <!-- Blog 1 -->
         <div class="item">
@@ -1459,14 +1539,16 @@
     </div>
 
     <!-- View More Button -->
-    
+
         </div>
     </div>
 </section>
   <!-- WhatsApp Chat Button -->
-  <a href="https://wa.link/obbf6q" target="_blank" class="whatsapp-btn">
+<a href="https://wa.link/obbf6q" target="_blank" class="whatsapp-btn">
     <i class="fab fa-whatsapp"></i>
 </a>
+
+
 <footer class="bg-warning text-dark">
     <div class="dd">
         <!-- Top Banner -->
@@ -1491,7 +1573,7 @@
                                 <img src="./image/logo.svg" alt="Logo" class="me-2" style="height: 40px;">
                             </div>
                             <p class="text-light small">
-                                Take Admission Bharat helps students secure admissions in top colleges across India. We provide expert guidance for various courses, ensuring a bright future for students.
+                                Take Admission  helps students secure admissions in top colleges across India. We provide expert guidance for various courses, ensuring a bright future for students.
                             </p>
                         </div>
 
@@ -1499,7 +1581,7 @@
                         <div class="col-md-3">
                             <h6 class="fw-bold">Overview</h6>
                             <ul class="list-unstyled mt-2 small">
-                                <li><a href="index.html" class="text-light text-decoration-none"><i class="fas fa-home text-white"></i> Take Admission Bharat</a></li>
+                                <li><a href="index.html" class="text-light text-decoration-none"><i class="fas fa-home text-white"></i> Take Admission </a></li>
                                 <li><a href="direct-admission.html" class="text-light text-decoration-none"><i class="fas fa-graduation-cap text-white"></i> Home</a></li>
                                 <li><a href="news-update.html" class="text-light text-decoration-none"><i class="fas fa-newspaper text-white"></i> Blog & Articles</a></li>
                                 <li><a href="direct-admission.html" class="text-light text-decoration-none"><i class="fas fa-image text-white"></i> Gallery</a></li>
@@ -1532,12 +1614,12 @@
                                 <i class="fas fa-map-marker-alt text-white"></i> <strong>Bangalore</strong>
                             </p>
                             <p class="text-light small mb-1">
-                                <i class="fas fa-phone text-white"></i> <strong>Phone:</strong> 
+                                <i class="fas fa-phone text-white"></i> <strong>Phone:</strong>
                                 <a href="tel:+918988505556" class="text-light text-decoration-none">+91 89885 05556</a>
                             </p>
                             <p class="text-light small mb-2">
-                                <i class="fas fa-envelope text-white"></i> <strong>Email:</strong> 
-                                <a href="mailto:info@takeadmissionbharat.com" class="text-light text-decoration-none">info@takeadmissionbharat.com</a>
+                                <i class="fas fa-envelope text-white"></i> <strong>Email:</strong>
+                                <a href="mailto:connect@takeadmission.com" class="text-light text-decoration-none">connect@takeadmission.com</a>
                             </p>
                             <!-- Social Icons -->
                             <div class="d-flex gap-2">
@@ -1552,7 +1634,7 @@
 
                 <!-- Copyright Section -->
                 <div class="text-center py-2 border-top border-light">
-                    <small class="text-light">© 2025. Take Admission Bharat. All Rights Reserved</small>
+                    <small class="text-light">© 2025. Take Admission . All Rights Reserved</small>
                 </div>
             </div>
         </div>
@@ -1560,7 +1642,7 @@
 </footer>
 
 <!-- Fixed Bottom Navigation -->
-<div class="bottom-nav d-md-none"> 
+<div class="bottom-nav d-md-none">
     <a href="index.html">
         <i class="fas fa-home"></i>
         <span>Home</span>
@@ -1568,7 +1650,7 @@
     <a href="direct-admission.html">
         <i class="fas fa-university"></i>
         <span> Colleges</span>
-    </a>  
+    </a>
     <a href="https://wa.link/obbf6q">
         <i class="fas fa-comment-dots text-light"></i>
         <span>Chat</span>
@@ -1598,6 +1680,7 @@
 
     setInterval(changeBackground, 5000); // Change background every 5 seconds
 </script>
+
 <script>
     const headingTexts = [
         'Top <span class="text-orange">Colleges</span> for B.Tech',
@@ -1659,7 +1742,7 @@
     });
 </script>
 
-
+<!-- Bootstrap JS (Popper Included) -->
 <!-- Include jQuery & Owl Carousel JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
@@ -1699,7 +1782,18 @@
         });
     });
 </script>
-
+<script>
+    // Fix Bootstrap closing dropdown when clicking inside it
+    $(document).ready(function(){
+        $(".dropdown").hover(function () {
+            $(this).addClass("show");
+            $(this).children(".dropdown-menu").addClass("show");
+        }, function () {
+            $(this).removeClass("show");
+            $(this).children(".dropdown-menu").removeClass("show");
+        });
+    });
+</script>
 <!-- Owl Carousel Initialization -->
 <script>
 $(document).ready(function(){
@@ -1719,6 +1813,30 @@ $(document).ready(function(){
 });
 </script>
 <!-- jQuery (Needed for Scroll Detection) -->
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".sub-menu-link").forEach(function (submenu) {
+        submenu.addEventListener("click", function (e) {
+            e.preventDefault(); // Prevent default link behavior
+            let subMenuElement = this.nextElementSibling;
+
+            // Close other open submenus
+            document.querySelectorAll(".submenu").forEach(function (el) {
+                if (el !== subMenuElement) {
+                    el.classList.remove("show");
+                    el.previousElementSibling.classList.remove("active");
+                }
+            });
+
+            // Toggle the clicked submenu
+            subMenuElement.classList.toggle("show");
+            this.classList.toggle("active");
+        });
+    });
+});
+
+</script>
 
 <!-- Scroll Script -->
 <script>

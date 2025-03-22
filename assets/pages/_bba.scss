@@ -1,0 +1,73 @@
+.college-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.college-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.college-card h3 {
+  color: #2c3e50;
+}
+.description {
+  font-size: 14px;
+  color: #666;
+}
+
+.page-background {
+  background: #eef2f9;
+  padding: 50px 0;
+}
+.admission-container {
+  max-width: 1200px;
+  margin: auto;
+}
+.admission-card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+.admission-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.15);
+}
+.city-label {
+  background: #0056b3;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 7px 14px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.card-heading {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+.description-text {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 15px;
+}
+.admission-table thead {
+  background: #007bff;
+  color: white;
+}
+.admission-table tbody tr:hover {
+  background: #f4f7ff;
+}
+@media (max-width: 768px) {
+  .admission-card {
+      padding: 20px;
+  }
+  .admission-table {
+      font-size: 14px;
+  }
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css");
 .bg-light-blue-20 {
   background-color: rgba(21, 30, 166, 0.231372549);
@@ -439,42 +440,143 @@ main {
   color: #FCB305;
 }
 
-/* Main dropdown menu */
-.two-level-menu {
-  min-width: 250px;
+.bg-light-blue-20 {
+  background-color: rgba(21, 30, 166, 0.231372549);
 }
 
-/* Submenu hidden by default */
-.submenu {
-  display: none;
-  position: absolute;
+.bg-blue {
+  background-color: #151EA6;
+}
+
+.bg-red {
+  background-color: #E5235A;
+}
+
+.bg-light-blue {
+  background-color: rgba(21, 30, 166, 0.7607843137);
+}
+
+.bg-orange {
+  background-color: #FCB305;
+}
+
+.text-blue {
+  color: #151EA6;
+}
+
+.text-red {
+  color: #E5235A;
+}
+
+.text-orange {
+  color: #FCB305;
+}
+
+/* Prevent submenu from closing when clicking inside */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
   top: 0;
   left: 100%;
-  min-width: 250px;
-  background: #f8f9fa;
-  border-left: 2px solid #ffc107;
+  margin-top: -1px;
+  display: none;
+  position: absolute;
 }
 
-/* Show submenu when hovered */
-.dropdown-submenu:hover > .submenu {
+.dropdown-submenu:hover > .dropdown-menu {
   display: block;
 }
 
-/* Style for submenu items */
-.submenu .dropdown-item {
-  padding: 10px 15px;
-  color: #212529;
+.dropdown-lg {
+  min-width: 500px; /* Larger dropdown */
+  max-width: 90%;
 }
 
-.submenu .dropdown-item i {
-  color: #ffc107;
-  margin-right: 8px;
+.dropdown-menu {
+  background-color: #fff;
+  border-radius: 8px;
+  border-radius: 8px;
 }
 
-/* Highlight active item */
-.dropdown-submenu > .dropdown-item:hover {
-  background-color: #ffc107;
-  color: #000;
+.dropdown-item {
+  font-size: 12px; /* Smaller font */
+  padding: 8px 15px;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(21, 30, 166, 0.231372549);
+  color: #151EA6;
+}
+
+/* Ensure submenus appear properly */
+.dropdown-menu .dropdown-menu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  margin-left: 5px;
+}
+
+/* Show submenu when parent is open */
+.dropdown-menu > .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+/* Hide submenu by default */
+.submenu {
+  display: none;
+  position: static !important;
+  box-shadow: none;
+  padding-left: 15px;
+}
+
+/* Ensure submenu is visible when active */
+.submenu.show {
+  display: block;
+}
+
+/* Styling for submenu links */
+.sub-menu-link::after {
+  content: "▼"; /* Downward arrow */
+  float: right;
+  font-size: 12px;
+  transition: transform 0.3s;
+}
+
+/* Rotate arrow when submenu is open */
+.sub-menu-link.active::after {
+  transform: rotate(180deg);
+}
+
+.fixed-dropdown {
+  min-width: 250px; /* Set a fixed width for consistency */
+}
+
+.dropdown-menu {
+  transition: all 0.2s ease-in-out;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  min-width: 250px;
+  z-index: 1000;
+}
+
+.dropdown-submenu:hover .submenu {
+  display: block;
+}
+
+.dropdown-item {
+  white-space: nowrap; /* Prevents text wrapping */
 }
 
 .bg-light-blue-20 {
@@ -737,6 +839,92 @@ marquee {
 
 .college-table .table td, .college-table .table th {
   font-size: 12px;
+}
+
+.main-table {
+  /* Table Styling */
+  /* Table Header */
+  /* Table Header Cells */
+  /* Table Rows */
+  /* Table Data Cells */
+  /* Alternating Row Colors */
+  /* Fees Column Highlight */
+  /* Hover Effect */
+  /* Responsive Table */
+}
+.main-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.main-table thead {
+  background: linear-gradient(to right, #ff7f50, #ff4500);
+  color: white;
+  text-align: left;
+}
+.main-table th {
+  padding: 14px;
+  text-transform: uppercase;
+  border: 1px solid #ff4500;
+}
+.main-table tr {
+  border-bottom: 1px solid #ddd;
+}
+.main-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-weight: bold;
+}
+.main-table tbody tr:nth-child(odd) {
+  background-color: #ffe4b5; /* Light Orange */
+}
+.main-table tbody tr:nth-child(even) {
+  background-color: #ffdab9; /* Peach */
+}
+.main-table td:nth-child(5) {
+  background-color: #ffcc00; /* Yellow */
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #ff9900;
+}
+.main-table tbody tr:hover {
+  background-color: #ffa07a !important; /* Soft Red */
+  color: white;
+  transition: 0.3s;
+}
+@media screen and (max-width: 768px) {
+  .main-table table, .main-table thead, .main-table tbody, .main-table th, .main-table td, .main-table tr {
+    display: block;
+  }
+  .main-table thead {
+    display: none; /* Hide Table Headers */
+  }
+  .main-table tr {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    background: #ffdab9;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .main-table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    font-weight: bold;
+    position: relative;
+  }
+  .main-table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: #ff4500;
+    text-transform: uppercase;
+  }
 }
 
 .bg-light-blue-20 {
@@ -1375,6 +1563,92 @@ marquee {
   visibility: visible;
 }
 
+.college-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+  border-radius: 12px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.college-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.college-card h3 {
+  color: #2c3e50;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+}
+
+.page-background {
+  background: #eef2f9;
+  padding: 50px 0;
+}
+
+.admission-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.admission-card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.admission-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.city-label {
+  background: #0056b3;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 7px 14px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.card-heading {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.description-text {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.admission-table thead {
+  background: #007bff;
+  color: white;
+}
+
+.admission-table tbody tr:hover {
+  background: #f4f7ff;
+}
+
+@media (max-width: 768px) {
+  .admission-card {
+    padding: 20px;
+  }
+  .admission-table {
+    font-size: 14px;
+  }
+}
 body {
   font-family: "Poppins", sans-serif !important;
 }/*# sourceMappingURL=main.css.map */
