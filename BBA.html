@@ -6,7 +6,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About - Take Education</title>
+    <title>About - Take Admission</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -50,40 +50,65 @@
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg border-top border-bottom navbar-dark py-0" id="mainNavbar">
         <div class="container">
-          <a class="navbar-brand fw-bold" href="index.html">
-            <img src="./image/logo.svg" alt="">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            <a class="navbar-brand fw-bold" href="index.html">
+                <img src="./image/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 
-              <!-- Direct Admission Dropdown -->
-              <li class="nav-item ">
-                <a class="nav-link " href="direct-admission.html" id="directAdmissionDropdown" role="button"
-                  data-bs-toggle="dropdown">
-                  Direct Admission
-                </a>
-              </li>
+                    <!-- Admission Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="admissionDropdown" role="button">
+                            Admission
+                        </a>
+                        <ul class="dropdown-menu p-3 shadow-lg border-0 fixed-dropdown">
+                            <h5 class="dropdown-title text-dark fw-bold mb-3 border-bottom pb-2">Choose Your Admission</h5>
 
-              <!-- Careers -->
-              <li class="nav-item"><a class="nav-link" href="career.html">Careers</a></li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item sub-menu-link" href="#">BBA/BMS/BMTA/B.Com Admission</a>
+                                <ul class="dropdown-menu submenu">
+                                    <li><a class="dropdown-item" href="BBA.html">BBA/BMS/BMTA Admission in Mumbai Colleges</a></li>
+                                    <li><a class="dropdown-item" href="BBA.html">BBA/BCA/B.Com Admission in Pune Colleges</a></li>
+                                    <li><a class="dropdown-item" href="BBA.html">BBA Admission in Delhi & Noida</a></li>
+                                    <li><a class="dropdown-item" href="BBA.html">BBA Admission in Bangalore</a></li>
+                                </ul>
+                            </li>
 
-              <!-- News & Updates Dropdown -->
-              <li class="nav-item ">
-                <a class="nav-link " href="news-update.html">
-                  News & Updates
-                </a>
-              </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item sub-menu-link" href="#">Engineering Admission</a>
+                                <ul class="dropdown-menu submenu">
+                                    <li><a class="dropdown-item" href="engineering-colleges.html">Mumbai B.Tech Colleges</a></li>
+                                    <li><a class="dropdown-item" href="engineering-colleges.html">Pune B.Tech Colleges</a></li>
+                                    <li><a class="dropdown-item" href="engineering-colleges.html">Bangalore B.Tech Colleges</a></li>
+                                    <li><a class="dropdown-item" href="engineering-colleges.html">Delhi B.Tech Colleges</a></li>
+                                </ul>
+                            </li>
 
-              <li class="nav-item"><a class="nav-link" href="contact-us.html">Reach Us</a></li>
-            </ul>
-          </div>
+                            <li><a class="dropdown-item small" href="mbbs-admission.html">MBBS Admission</a></li>
+                            <li><a class="dropdown-item small" href="BBA-MBA-PGDM.html">LAW Admission</a></li>
+                            <li><a class="dropdown-item small" href="BBA-MBA-PGDM.html">BPT Admission</a></li>
+                            <li><a class="dropdown-item small" href="BBA-MBA-PGDM.html">BDS Admission</a></li>
+                            <li><a class="dropdown-item small" href="BBA-MBA-PGDM.html">BAMS Admission</a></li>
+                            <li><a class="dropdown-item small" href="BBA-MBA-PGDM.html">MBA Admission</a></li>
+                            <li><a class="dropdown-item small" href="BBA-MBA-PGDM.html">MD/MS/MDS Admission</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="direct-admission.html">Direct Admission</a></li>
+                    <li class="nav-item"><a class="nav-link" href="career.html">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news-update.html">News & Updates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact-us.html">Reach Us</a></li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
+
       <article class="bg-header">
         <div class="overlay  py-4">
           <div class="container">
@@ -520,7 +545,7 @@
         <div class="overlay">
           <!-- Background Image -->
           <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-25"
-            style="background: url('your-background-image.jpg') no-repeat center; background-size: cover;"></div>
+            style="background: url('./image/0a2f683b0f07e3910f7941ed029d3b2c.png') no-repeat center; background-size: cover;"></div>
 
           <div class="container py-4 position-relative">
             <div class="row g-3">
@@ -615,7 +640,19 @@
 
 
   <!-- Font Awesome CDN -->
-  <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script>
+        // Fix Bootstrap closing dropdown when clicking inside it
+        $(document).ready(function(){
+            $(".dropdown").hover(function () {
+                $(this).addClass("show");
+                $(this).children(".dropdown-menu").addClass("show");
+            }, function () {
+                $(this).removeClass("show");
+                $(this).children(".dropdown-menu").removeClass("show");
+            });
+        });
+    </script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
