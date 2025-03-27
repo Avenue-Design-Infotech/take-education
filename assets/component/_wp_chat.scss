@@ -3,10 +3,10 @@
     position: fixed;
     bottom: 20px;
     @media (max-width: 767px) {
-        bottom: 83px; 
+        bottom: 83px;
     }
     right: 20px;
-    background-color: #25D366;
+    background: #25D366;
     color: white;
     font-size: 24px;
     padding: 12px;
@@ -22,7 +22,7 @@
 }
 
 .whatsapp-btn:hover {
-    background-color: #1EBE5D;
+    background: #1EBE5D;
     transform: scale(1.1);
 }
 

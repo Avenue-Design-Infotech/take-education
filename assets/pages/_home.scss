@@ -44,7 +44,7 @@ main {
         height: 50px;
     }
     &:hover{
-        background-color: $blue !important;
+        background: $blue !important;
         color: white;
         transition: 0.4s;
         .text-blue{
@@ -64,8 +64,8 @@ main {
 }
 
 .sticky-navbar {
-    background-color: $blue;
-    transition: background-color 0.3s ease-in-out;
+    background: $blue;
+    transition: background 0.3s ease-in-out;
     position: fixed;
     width: 100%;
     top: 0;
@@ -94,13 +94,13 @@ main {
 
 .line-blue{
     width: 100px;
-    background-color: $blue;
+    background: $blue;
     height: 5px;
 }
 
 .line-orange{
     width: 100px;
-    background-color: $orange;
+    background: $orange;
     height: 5px;
 }
 

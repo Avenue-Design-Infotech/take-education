@@ -1,27 +1,27 @@
 @charset "UTF-8";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css");
 .bg-light-blue-20 {
-  background-color: rgba(21, 30, 166, 0.231372549);
+  background: rgba(21, 30, 166, 0.231372549);
 }
 
 .bg-blue {
-  background-color: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .bg-red {
-  background-color: #E5235A;
+  background: #E5235A;
 }
 
 .bg-light-blue {
-  background-color: rgba(21, 30, 166, 0.7607843137);
+  background: rgba(21, 30, 166, 0.7607843137);
 }
 
 .bg-orange {
-  background-color: #FCB305;
+  background: #FCB305;
 }
 
 .text-blue {
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .text-red {
@@ -69,14 +69,14 @@ main {
 }
 
 .serv-card {
-  border: 1px solid #151EA6;
+  border: 1px solid linear-gradient(to bottom, #3388ff, #0044cc);
 }
 .serv-card img {
   width: 50px;
   height: 50px;
 }
 .serv-card:hover {
-  background-color: #151EA6 !important;
+  background: linear-gradient(to bottom, #3388ff, #0044cc) !important;
   color: white;
   transition: 0.4s;
 }
@@ -93,8 +93,8 @@ main {
 }
 
 .sticky-navbar {
-  background-color: #151EA6;
-  transition: background-color 0.3s ease-in-out;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
+  transition: background 0.3s ease-in-out;
   position: fixed;
   width: 100%;
   top: 0;
@@ -125,13 +125,13 @@ main {
 
 .line-blue {
   width: 100px;
-  background-color: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
   height: 5px;
 }
 
 .line-orange {
   width: 100px;
-  background-color: #FCB305;
+  background: #FCB305;
   height: 5px;
 }
 
@@ -149,7 +149,7 @@ main {
 }
 
 .highlight-text {
-  background: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
@@ -409,27 +409,27 @@ main {
 }
 
 .bg-light-blue-20 {
-  background-color: rgba(21, 30, 166, 0.231372549);
+  background: rgba(21, 30, 166, 0.231372549);
 }
 
 .bg-blue {
-  background-color: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .bg-red {
-  background-color: #E5235A;
+  background: #E5235A;
 }
 
 .bg-light-blue {
-  background-color: rgba(21, 30, 166, 0.7607843137);
+  background: rgba(21, 30, 166, 0.7607843137);
 }
 
 .bg-orange {
-  background-color: #FCB305;
+  background: #FCB305;
 }
 
 .text-blue {
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .text-red {
@@ -441,27 +441,27 @@ main {
 }
 
 .bg-light-blue-20 {
-  background-color: rgba(21, 30, 166, 0.231372549);
+  background: rgba(21, 30, 166, 0.231372549);
 }
 
 .bg-blue {
-  background-color: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .bg-red {
-  background-color: #E5235A;
+  background: #E5235A;
 }
 
 .bg-light-blue {
-  background-color: rgba(21, 30, 166, 0.7607843137);
+  background: rgba(21, 30, 166, 0.7607843137);
 }
 
 .bg-orange {
-  background-color: #FCB305;
+  background: #FCB305;
 }
 
 .text-blue {
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .text-red {
@@ -495,7 +495,7 @@ main {
 }
 
 .dropdown-menu {
-  background-color: #fff;
+  background: #fff;
   border-radius: 8px;
   border-radius: 8px;
 }
@@ -506,8 +506,8 @@ main {
 }
 
 .dropdown-item:hover {
-  background-color: rgba(21, 30, 166, 0.231372549);
-  color: #151EA6;
+  background: rgba(21, 30, 166, 0.231372549);
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 /* Ensure submenus appear properly */
@@ -580,27 +580,27 @@ main {
 }
 
 .bg-light-blue-20 {
-  background-color: rgba(21, 30, 166, 0.231372549);
+  background: rgba(21, 30, 166, 0.231372549);
 }
 
 .bg-blue {
-  background-color: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .bg-red {
-  background-color: #E5235A;
+  background: #E5235A;
 }
 
 .bg-light-blue {
-  background-color: rgba(21, 30, 166, 0.7607843137);
+  background: rgba(21, 30, 166, 0.7607843137);
 }
 
 .bg-orange {
-  background-color: #FCB305;
+  background: #FCB305;
 }
 
 .text-blue {
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .text-red {
@@ -613,7 +613,7 @@ main {
 
 .notice-board {
   background: #f8f9fa; /* Light background */
-  border: 3px solid #151EA6; /* Blue border */
+  border: 3px solid linear-gradient(to bottom, #3388ff, #0044cc); /* Blue border */
   padding: 20px;
   border-radius: 12px;
   text-align: center;
@@ -623,7 +623,7 @@ main {
 
 /* Title (Latest Announcements) */
 .notice-title {
-  background: #151EA6; /* Blue header */
+  background: linear-gradient(to bottom, #3388ff, #0044cc); /* Blue header */
   color: white;
   padding: 12px;
   font-size: 18px;
@@ -646,7 +646,7 @@ marquee {
   padding: 8px;
   font-size: 16px;
   font-weight: bold;
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
   width: 100%;
   display: block;
 }
@@ -708,27 +708,27 @@ marquee {
   }
 }
 .bg-light-blue-20 {
-  background-color: rgba(21, 30, 166, 0.231372549);
+  background: rgba(21, 30, 166, 0.231372549);
 }
 
 .bg-blue {
-  background-color: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .bg-red {
-  background-color: #E5235A;
+  background: #E5235A;
 }
 
 .bg-light-blue {
-  background-color: rgba(21, 30, 166, 0.7607843137);
+  background: rgba(21, 30, 166, 0.7607843137);
 }
 
 .bg-orange {
-  background-color: #FCB305;
+  background: #FCB305;
 }
 
 .text-blue {
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .text-red {
@@ -746,7 +746,7 @@ marquee {
 }
 
 .table thead {
-  background-color: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
   color: white;
   text-align: center;
   font-size: 14px;
@@ -791,7 +791,7 @@ marquee {
 
 .ranking {
   font-weight: bold;
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
   font-size: 13px;
 }
 
@@ -821,7 +821,7 @@ marquee {
     content: attr(data-label);
     float: left;
     font-weight: bold;
-    color: #151EA6;
+    color: linear-gradient(to bottom, #3388ff, #0044cc);
   }
 }
 .college-logo {
@@ -881,20 +881,20 @@ marquee {
   font-weight: bold;
 }
 .main-table tbody tr:nth-child(odd) {
-  background-color: #ffe4b5; /* Light Orange */
+  background: #ffe4b5; /* Light Orange */
 }
 .main-table tbody tr:nth-child(even) {
-  background-color: #ffdab9; /* Peach */
+  background: #ffdab9; /* Peach */
 }
 .main-table td:nth-child(5) {
-  background-color: #ffcc00; /* Yellow */
+  background: #ffcc00; /* Yellow */
   color: #333;
   font-weight: bold;
   text-align: center;
   border: 1px solid #ff9900;
 }
 .main-table tbody tr:hover {
-  background-color: #ffa07a !important; /* Soft Red */
+  background: #ffa07a !important; /* Soft Red */
   color: white;
   transition: 0.3s;
 }
@@ -928,27 +928,27 @@ marquee {
 }
 
 .bg-light-blue-20 {
-  background-color: rgba(21, 30, 166, 0.231372549);
+  background: rgba(21, 30, 166, 0.231372549);
 }
 
 .bg-blue {
-  background-color: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .bg-red {
-  background-color: #E5235A;
+  background: #E5235A;
 }
 
 .bg-light-blue {
-  background-color: rgba(21, 30, 166, 0.7607843137);
+  background: rgba(21, 30, 166, 0.7607843137);
 }
 
 .bg-orange {
-  background-color: #FCB305;
+  background: #FCB305;
 }
 
 .text-blue {
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .text-red {
@@ -989,7 +989,7 @@ marquee {
   height: 96px;
   -o-object-fit: cover;
      object-fit: cover;
-  border: 2px solid #151EA6;
+  border: 2px solid linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .content {
@@ -997,8 +997,8 @@ marquee {
 }
 
 .border-custom {
-  border-top: 5px dashed #151EA6;
-  border-bottom: 5px dashed #151EA6;
+  border-top: 5px dashed linear-gradient(to bottom, #3388ff, #0044cc);
+  border-bottom: 5px dashed linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .job-card {
@@ -1029,7 +1029,7 @@ marquee {
 }
 
 .nav-tabs .nav-link.active {
-  background-color: #007bff;
+  background: #007bff;
   color: white;
   border-radius: 8px;
 }
@@ -1054,27 +1054,27 @@ marquee {
 }
 
 .bg-light-blue-20 {
-  background-color: rgba(21, 30, 166, 0.231372549);
+  background: rgba(21, 30, 166, 0.231372549);
 }
 
 .bg-blue {
-  background-color: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .bg-red {
-  background-color: #E5235A;
+  background: #E5235A;
 }
 
 .bg-light-blue {
-  background-color: rgba(21, 30, 166, 0.7607843137);
+  background: rgba(21, 30, 166, 0.7607843137);
 }
 
 .bg-orange {
-  background-color: #FCB305;
+  background: #FCB305;
 }
 
 .text-blue {
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .text-red {
@@ -1104,14 +1104,14 @@ marquee {
 }
 .all-colleges .nav-tabs .nav-link.active {
   color: #fff;
-  background: #151EA6; /* Active tab color */
+  background: linear-gradient(to bottom, #3388ff, #0044cc); /* Active tab color */
   border-radius: 5px;
 }
 .all-colleges .nav-link:not(.active) {
   color: black !important;
 }
 .all-colleges .nav-tabs .nav-link:hover {
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 @media (max-width: 768px) {
   .all-colleges .nav-tabs .nav-link {
@@ -1162,27 +1162,27 @@ marquee {
 }
 
 .bg-light-blue-20 {
-  background-color: rgba(21, 30, 166, 0.231372549);
+  background: rgba(21, 30, 166, 0.231372549);
 }
 
 .bg-blue {
-  background-color: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .bg-red {
-  background-color: #E5235A;
+  background: #E5235A;
 }
 
 .bg-light-blue {
-  background-color: rgba(21, 30, 166, 0.7607843137);
+  background: rgba(21, 30, 166, 0.7607843137);
 }
 
 .bg-orange {
-  background-color: #FCB305;
+  background: #FCB305;
 }
 
 .text-blue {
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .text-red {
@@ -1209,17 +1209,17 @@ marquee {
   padding: 15px;
 }
 .categories .accordion-button:hover {
-  background-color: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
   color: white;
 }
 .categories .accordion-button:not(.collapsed) {
-  background-color: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
   color: white;
 }
 .categories .accordion-button i {
   margin-right: 12px;
   font-size: 1.3rem;
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 .categories .accordion-button:not(.collapsed) i {
   color: white;
@@ -1243,7 +1243,7 @@ marquee {
   list-style: none;
 }
 .categories .accordion-body ul li i {
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
   margin-right: 8px;
 }
 @media (max-width: 768px) {
@@ -1257,27 +1257,27 @@ marquee {
 }
 
 .bg-light-blue-20 {
-  background-color: rgba(21, 30, 166, 0.231372549);
+  background: rgba(21, 30, 166, 0.231372549);
 }
 
 .bg-blue {
-  background-color: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .bg-red {
-  background-color: #E5235A;
+  background: #E5235A;
 }
 
 .bg-light-blue {
-  background-color: rgba(21, 30, 166, 0.7607843137);
+  background: rgba(21, 30, 166, 0.7607843137);
 }
 
 .bg-orange {
-  background-color: #FCB305;
+  background: #FCB305;
 }
 
 .text-blue {
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .text-red {
@@ -1293,7 +1293,7 @@ marquee {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -1322,27 +1322,27 @@ marquee {
 }
 
 .bg-light-blue-20 {
-  background-color: rgba(21, 30, 166, 0.231372549);
+  background: rgba(21, 30, 166, 0.231372549);
 }
 
 .bg-blue {
-  background-color: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .bg-red {
-  background-color: #E5235A;
+  background: #E5235A;
 }
 
 .bg-light-blue {
-  background-color: rgba(21, 30, 166, 0.7607843137);
+  background: rgba(21, 30, 166, 0.7607843137);
 }
 
 .bg-orange {
-  background-color: #FCB305;
+  background: #FCB305;
 }
 
 .text-blue {
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .text-red {
@@ -1354,7 +1354,7 @@ marquee {
 }
 
 .announcement-box {
-  background: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
   color: white;
   padding: 15px;
   border-radius: 10px;
@@ -1390,7 +1390,7 @@ marquee {
 }
 
 .btn-custom {
-  background: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
   color: white;
   border-radius: 50px;
   padding: 8px 16px;
@@ -1398,7 +1398,7 @@ marquee {
 }
 
 .btn-custom:hover {
-  background: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .icon-box {
@@ -1412,27 +1412,27 @@ marquee {
 }
 
 .bg-light-blue-20 {
-  background-color: rgba(21, 30, 166, 0.231372549);
+  background: rgba(21, 30, 166, 0.231372549);
 }
 
 .bg-blue {
-  background-color: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .bg-red {
-  background-color: #E5235A;
+  background: #E5235A;
 }
 
 .bg-light-blue {
-  background-color: rgba(21, 30, 166, 0.7607843137);
+  background: rgba(21, 30, 166, 0.7607843137);
 }
 
 .bg-orange {
-  background-color: #FCB305;
+  background: #FCB305;
 }
 
 .text-blue {
-  color: #151EA6;
+  color: linear-gradient(to bottom, #3388ff, #0044cc);
 }
 
 .text-red {
@@ -1448,7 +1448,7 @@ marquee {
 }
 
 .testimonial-card {
-  background: #151EA6;
+  background: linear-gradient(to bottom, #3388ff, #0044cc);
   color: white;
   padding: 25px;
   border-radius: 12px;
@@ -1518,7 +1518,7 @@ marquee {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #25D366;
+  background: #25D366;
   color: white;
   font-size: 24px;
   padding: 12px;
@@ -1539,7 +1539,7 @@ marquee {
 }
 
 .whatsapp-btn:hover {
-  background-color: #1EBE5D;
+  background: #1EBE5D;
   transform: scale(1.1);
 }
 

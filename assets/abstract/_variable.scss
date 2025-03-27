@@ -1,4 +1,4 @@
-$blue:#151EA6;
+$blue:linear-gradient(to bottom, #3388ff, #0044cc);
 $red:  #E5235A;
 $orange: #FCB305;
 $light-blue: #151EA6C2;
@@ -6,24 +6,24 @@ $bg-light-blue-20: #151EA63B;
 
 
 .bg-light-blue-20{
-    background-color: $bg-light-blue-20;
+    background: $bg-light-blue-20;
 }
 
 .bg-blue{
-    background-color: $blue;
+    background: $blue;
 }
 
 .bg-red{
-    background-color: $red;
+    background: $red;
 }
 
 .bg-light-blue{
-    background-color: $light-blue;
+    background: $light-blue;
 }
 
 
 .bg-orange{
-    background-color: $orange;
+    background: $orange;
 }
 
 .text-blue{

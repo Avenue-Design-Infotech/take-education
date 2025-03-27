@@ -21,7 +21,7 @@
     max-width: 90%;
 }
 .dropdown-menu {
-    background-color: #fff;
+    background: #fff;
     border-radius: 8px;
     border-radius: 8px;
 }
@@ -30,7 +30,7 @@
     padding: 8px 15px;
 }
 .dropdown-item:hover {
-    background-color: $bg-light-blue-20;
+    background: $bg-light-blue-20;
     color: $blue;
 }
  /* Ensure submenus appear properly */

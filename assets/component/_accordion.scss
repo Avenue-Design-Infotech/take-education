@@ -16,14 +16,14 @@
         transition: all 0.3s ease-in-out;
         padding: 15px;
     }
- 
+
     .accordion-button:hover {
-        background-color: $blue;
+        background: $blue;
         color: white;
     }
 
     .accordion-button:not(.collapsed) {
-        background-color: $blue;
+        background: $blue;
         color: white;
     }
 
@@ -72,6 +72,6 @@
             font-size: 12px !important; /* Adjust as needed */
             line-height: 1.4;
         }
-        
+
     }
 }

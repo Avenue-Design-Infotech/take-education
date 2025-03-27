@@ -8,7 +8,7 @@
 }
 
 .table thead {
-    background-color: $blue;
+    background: $blue;
     color: white;
     text-align: center;
     font-size: 14px;
@@ -145,16 +145,16 @@ td {
 
 /* Alternating Row Colors */
 tbody tr:nth-child(odd) {
-    background-color: #ffe4b5; /* Light Orange */
+    background: #ffe4b5; /* Light Orange */
 }
 
 tbody tr:nth-child(even) {
-    background-color: #ffdab9; /* Peach */
+    background: #ffdab9; /* Peach */
 }
 
 /* Fees Column Highlight */
 td:nth-child(5) {
-    background-color: #ffcc00; /* Yellow */
+    background: #ffcc00; /* Yellow */
     color: #333;
     font-weight: bold;
     text-align: center;
@@ -163,7 +163,7 @@ td:nth-child(5) {
 
 /* Hover Effect */
 tbody tr:hover {
-    background-color: #ffa07a !important; /* Soft Red */
+    background: #ffa07a !important; /* Soft Red */
     color: white;
     transition: 0.3s;
 }
